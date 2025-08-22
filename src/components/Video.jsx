@@ -4,31 +4,13 @@ import React from 'react';
 function Video() {
   return (
     <div className="video-container">
-    <video 
-    className="video1"
-    autoPlay
-    muted
-    loop
-    playsInline
-    controls
-    controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
-    preload="metadata"
-    disablePictureInPicture
-    src="/videos/HORIZONTAL_C.mp4"
-    />
+      <iframe 
+      allow="fullscreen;autoplay" 
+      allowfullscreen
+      src="https://streamable.com/e/cbvxmn?autoplay=1&muted=1"
+      style={{borderRadius:"30px", width:"100%", height:"100%", overflow:"hidden"}}>
+      </iframe>
 
-    <video
-    className="video2"
-    autoPlay
-    muted
-    loop
-    playsInline
-    controls
-    controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
-    preload="metadata"
-    disablePictureInPicture
-    src="/videos/VERTICAL_C.mp4"
-    />
     </div>
 
   );
