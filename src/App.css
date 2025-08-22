@@ -34,7 +34,7 @@
     align-items: center;
     align-content: center;
     width: 100%;
-    height: 10%;
+    height: auto;
     margin: 0;
     padding: 0;
     background:linear-gradient(180deg, #FFFFFF 1.11%, #A2D3EB 49.18%, #FFFFFF 68.94%); 
@@ -139,6 +139,7 @@ a:hover {
     width: 1363px;
     height: 767px;
     margin-top: 25px;
+    transition: all 0.3s ease-in-out;
   }
 
   .videoDesktop{
@@ -596,6 +597,8 @@ color: rgba(255, 255, 255, 1);
     justify-content: center;
     align-items: center;
     max-width: 440px;
+    padding: 0 16px;
+    box-sizing: border-box;
   }
 
 
@@ -664,7 +667,6 @@ color: rgba(255, 255, 255, 1);
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 0 -600px;
     margin: 0 auto;
     align-items: center;
     text-align: center;
@@ -762,10 +764,10 @@ color: rgba(255, 255, 255, 1);
   }
 
   .grafico-2{
-  width: 100%;
-  height: 150px;
-  display: block;
-  margin-top: -80px;
+    width: 100%;
+    height: 150px;
+    display: block;
+    margin-top: -80px;
   }
 
   .calendario-section{
@@ -801,7 +803,6 @@ color: rgba(255, 255, 255, 1);
     justify-content: center;
     width: 100%;
     height: auto;
-    padding: 0 16px;
     margin-top: 88px;
   }
 
@@ -824,7 +825,6 @@ color: rgba(255, 255, 255, 1);
     width: 250px;
     height: auto;
     border-width: 1px;
-    padding: 60px;
   }
 
   .cta-button{
@@ -876,7 +876,6 @@ color: rgba(255, 255, 255, 1);
     font-weight: 400;
     text-align: center;
     margin: 0 auto;
-    padding: 0;
     max-width: 280px;
     width: 100%;
     box-sizing: border-box;
