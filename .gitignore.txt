@@ -1,2 +1,6 @@
+<<<<<<< HEAD
+=======
+# Dependencias y archivos generados
+>>>>>>> 4b19ccbf432fd56dc2aab8db79680e84d5473a44
 node_modules/
 .cache/
