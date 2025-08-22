@@ -14,7 +14,7 @@ function Video() {
     controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
     preload="metadata"
     disablePictureInPicture
-    src="/diabetes-recovery/videos/HORIZONTAL_C.mp4"
+    src="/videos/HORIZONTAL_C.mp4"
     />
 
     <video
@@ -27,7 +27,7 @@ function Video() {
     controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
     preload="metadata"
     disablePictureInPicture
-    src="/diabetes-recovery/videos/VERTICAL_C.mp4"
+    src="/videos/VERTICAL_C.mp4"
     />
     </div>
 
