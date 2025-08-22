@@ -1,0 +1,918 @@
+
+  @font-face {
+  font-family: 'SuisseIntlMono1';
+  src: url('./Assets/fonts/suisseintl-book.otf') format('opentype');
+  font-style: normal;
+}
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    gap: 3rem;
+  }
+
+  .main-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    top: 1px;
+    overflow-x: hidden;
+  }
+
+  .background{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(180deg, #FFFFFF 1.11%, #A2D3EB 49.18%, #FFFFFF 68.94%); 
+  }
+
+  .navbar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 8px; 
+  justify-content: space-around;
+  width: 95%;
+  align-content: center;
+  height: 40px;
+  margin-top: 15px;
+  }
+
+  a{
+  text-decoration: none;
+  color: rgba(11, 31, 54, 1);
+  font-size: 12px;
+  font-weight: 500px;
+}
+
+a:hover {
+  text-decoration:underline; 
+}
+
+  .nav-left {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: -30px;
+  margin-top: 10px;
+  gap:90px;
+  }
+
+  .navtext{
+  font-family:"Poppins";
+  font-weight: 500;
+  color:rgba(11, 31, 54, 1);
+  font-size: 14px;
+  border: 0.4px solid rgba(255, 255, 255, 1);
+  }
+
+
+  .nav-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 284px;
+  height: 284px;
+  left: 50%;
+  transform: translate(-52%, -52%);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius:50%;
+  z-index: 10;
+  }
+
+
+  .imglogo{
+    margin-top: 75px;
+    height: 214px;
+    width: 214px;
+    object-fit: contain;
+  }
+
+  .nav-right{
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    width: 187px;
+    height: 40px;
+    border-radius: 100px;
+    margin-right: -7px;
+  }
+
+  .btn-ayuda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 187px;
+    height: 40px;
+    border-radius: 100px;
+    background: none;
+    border: none;
+    font-family:'Poppins';
+    font-weight: 500;
+    color:#FFFFFF;
+    box-shadow: 0px 0px 4px rgba(36, 81, 122, 0.15);
+    background:linear-gradient(90deg, #24517A 0%, #4295E0 100%);
+    cursor: pointer
+  }
+
+
+  .video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    width: 1363px;
+    height: 767px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 25px;
+  }
+
+  .video1{
+    width: 1363px;
+    height: 767px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    display: block;
+  }
+
+  .video2{
+    display: none;
+  }
+
+  .video::-webkit-media-controls-fullscreen-button,
+  .video::-webkit-media-controls-pip-button {
+  display: none !important;
+  }
+  
+  .hero-message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .text1{
+  font-family: "SuisseIntlMono1";
+  color: rgba(255, 255, 255, 1);
+  font-size: 70px;
+  font-weight: 450;
+  text-align: center;
+  }
+
+  .text2{
+  font-family: "SuisseIntlMono1";
+  color: rgba(36, 81, 122, 1);
+  font-size: 70px;
+  font-weight: 450;
+  text-align: center;
+  margin-top: -65px;
+  margin-bottom: 2px;
+  }
+
+
+  .btn-agendar{
+    color: white;
+    height: 40px;
+    width: 187px;
+    background: linear-gradient(90deg, #24517A 0%, #4295E0 100%);
+    box-shadow: 0px 0px 4px rgba(36, 81, 122, 0.15);
+    border-radius: 100px;
+    border: #FFFFFF;
+    font-family:'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-lucas{
+    margin-top: 98px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 135px;
+  }
+
+
+  .about-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Public Sans';
+    width: 638px;
+    height: 361px;
+  }
+
+
+  h2{
+  font-family: "SuisseIntlMono1";
+  font-weight: 450;
+  text-align: justify;
+  font-size: 40px;
+  color:rgba(11, 31, 54, 1);
+  margin-bottom: 2px;
+  }
+
+  p{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Public Sans';
+    text-align: justify;
+    color: rgba(11, 31, 54, 1);
+  }
+
+  .about-img{
+    width: 640px;
+    height: 425px;
+    margin-top: 40px;
+    background: linear-gradient(180deg, #B3DBEF -6.84%, #275782 105.9%);
+    border-radius: 20px;
+  }
+
+  .resultados-section{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 112px;
+  }
+
+  h3{
+    display: flex;
+    justify-content: center;
+    font-family: "SuisseIntlMono1";
+    font-weight: 450;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(11, 31, 54, 1);
+  }
+
+  .subtitulo1{
+  font-family: "SuisseIntlMono1";
+  font-weight: 450;
+  font-size: 18px;
+  color: rgba(11, 31, 54, 1);  
+  }
+
+  .subtitulo2{
+  font-family: "SuisseIntlMono1";
+  font-weight: 450;
+  font-size: 18px;
+  color: rgba(11, 31, 54, 1);  
+  margin-top: 58px;
+  }
+
+  .graficos-glucemia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .grafico-glucemia1{
+    width: 100%;
+    height: auto;
+    border-width: 1px;
+  }
+
+  .grafico-glucemia-mobile{
+    display: none;
+  }
+
+
+  .grafico-glucemia2{
+    width: 250px;
+    height: auto;
+    margin-bottom: 17px;
+    border-radius: 30px;
+    border-width: 1px;
+    border: 1px solid rgba(162, 211, 235, 1);
+    box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
+    box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
+  }
+
+
+  .imagenes-evolucion{
+    display: flex ;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .grafico-1{
+    width: 493px;
+    height: 466px;
+    border-radius: 30px;
+    border-width: 1px;
+  }
+
+  .grafico-2{
+    width: 785px;
+    height: 231px;
+    border-radius: 25px;
+    border-width: 1px;
+  }
+
+  .subtitulo{
+  font-family: "SuisseIntlMono1";
+  font-weight: 450px;
+  font-size: 18px;
+  line-height: 81%;
+  letter-spacing: 0%;
+  }
+
+  .calendario-section{
+    display: flex;
+    display: row;
+    justify-content: space-between;
+    margin-top: 120px;
+    gap: 5px;
+  }
+
+  .calendario-textcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    width: 637px;
+    height: 239px;
+    padding: 20px;
+  }
+
+  .calendario-text{
+    font-family: 'Public Sans';
+    font-weight: 400px;
+    font-size: 16px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 637px;
+    height: 239px;
+    color:#24517A;
+  }
+
+  .calendario{
+    width: 736px;
+    height: 605px;
+    margin: 0 auto; 
+    border-radius: 30px;
+    border: 1px solid rgba(162, 211, 235, 1);
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
+    box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  h4{
+    display: flex;
+    justify-content: center;
+    font-family: "SuisseIntlMono1";
+    font-size: 40px;
+    font-weight: 450;
+    text-align: center;
+    color: rgba(11, 31, 54, 1);
+  }
+
+  .program-features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+  .feature-grid1{
+    display: flex;
+    align-content: center;
+    gap: 28px;
+    margin-bottom: 28px;
+  }
+
+    .feature-grid2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap:28px
+  }
+
+  .feature-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 436px;
+  height: 244px;
+  border-radius: 20px;
+  border-width: 1px;
+  border: 1px solid rgba(162, 211, 235, 1)
+  }
+
+  .card-title{
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  }
+
+  .card-text{
+    text-align: center;
+  }
+  .card-blue{
+    color:rgba(36, 139, 233, 1);
+    
+  }
+
+  .cta-button{
+    color: white;
+    width: 276px;
+    height: 48px;
+    background: linear-gradient(90deg, #24517A 0%, #4295E0 100%);
+    box-shadow: 0px 0px 4px rgba(36, 81, 122, 0.15);
+    border-radius: 100px;
+    border: #FFFFFF;
+    font-family:'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 57px;
+    margin-bottom: 152px;
+    cursor: pointer;
+  }
+
+  .logo-card{
+    width: 92px;
+    height: 93px;
+  }
+
+/*CARROUSEL CSS*/
+
+h5{
+  font-family: "SuisseIntlMono1";
+  font-size: 25px;
+  color: rgba(11, 31, 54, 1);
+  font-weight: 450;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.ellipse{
+margin-top: 152px;
+width:9px;
+height: 9px;
+background: rgba(36, 81, 122, 1);
+border-radius: 100%;
+}
+
+swiper-container {
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  overflow: visible;
+  margin-top: 5px;
+}
+
+swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 640px;
+  height: 244px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px rgba(36, 81, 122, 0.1);
+  background: linear-gradient(180deg, #24517A 0%, rgba(66, 149, 224, 0.7) 100%);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0.4;
+  transform: scale(0.9);
+}
+
+swiper-slide.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slide-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px;
+}
+
+.slide-text1{
+font-family: 'Public Sans';
+font-weight: 600;
+font-size: 18px;
+color: white;
+text-align: center;
+justify-content: center;
+}
+
+.slide-text2{
+font-family: 'Public Sans';
+font-weight: 400;
+font-size: 16px;
+color: white;
+text-align: center;
+justify-content: center;
+font-style:Regular;
+}
+
+
+/*FOOTER CSS*/
+
+.footer-section{
+width: 100%;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+background: linear-gradient(0deg, #24517A 0%, rgba(66, 149, 224, 0.75) 100%);
+margin-top: 200px;
+box-shadow: 0px 0px 8px 0px rgba(36, 81, 122, 0.1);
+}
+
+.footer-container{
+display: flex;
+flex-direction: column;
+padding-left:38px;
+padding-right: 38px;
+padding-bottom: 20px;
+}
+
+
+.logo-footer{
+width: 84px;
+height: 84px;
+align-items: start;
+}
+
+
+.footer-row{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  gap:24px;
+}
+
+.footer-text{
+font-family: "Public Sans";
+text-align: start;
+font-weight: 400px;
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+}
+
+/*MOBILE*/
+
+@media (max-width: 440px) {
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+    max-width: 440px;
+    overflow-x: hidden;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 440px;
+  }
+
+
+  .background{
+    align-content: center;
+    max-width: 440px;
+    background:linear-gradient(180deg, #FFFFFF 1.11%, #A2D3EB 49.18%, #FFFFFF 68.94%); 
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:none;
+    align-items: center;
+  }
+
+  .nav-left{
+    display: none;
+  }
+  .nav-right{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -22px;
+  }
+
+  .nav-center{
+    margin-top:250px;
+    border-radius: 0;
+    background:none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imglogo{
+    width: 173px;
+    height: 214px;
+    align-items: center;
+  }
+
+  .video-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+  }
+
+  .video1{
+    display: none;
+  }
+
+  .video2{
+    display: block;
+    width: 414px;
+    height: auto;
+    border-radius: 30px;
+  }
+
+  .hero-message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0 -600px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .text1{
+    font-family: "SuisseIntlMono1";
+    font-weight: 450;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+
+
+  .text2{
+    margin-top: -50px;
+    font-family: "SuisseIntlMono1";
+    font-weight: 450;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(36, 81, 122, 1);
+  }
+
+  .btn-container{
+    margin-top: 10px;
+  }
+
+  .about-lucas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 391px;
+  }
+
+  .about-text{
+    font-size: 15px;
+    width: 391px;
+  }
+
+  h2{
+    font-size: 28px;
+  }  
+
+  .about-img{
+    margin-top: 250px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .resultados-section{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    width: 391px;
+  }
+
+  .graficos-glucemia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grafico-glucemia1{
+    display: none;
+  }
+
+  .grafico-glucemia-mobile{
+    display: block;
+    width: 391px;
+    height: 781px;
+    border-width: 1px;
+  }
+
+  .grafico-glucemia2{
+    width: 186px;
+    height: 384px;
+  }
+
+  .imagenes-evolucion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border-width: 1px;
+  }
+
+  .grafico-1{
+    width: 100%;
+    height:auto;
+  }
+
+  .grafico-2{
+  width: 100%;
+  height: 150px;
+  display: block;
+  margin-top: -80px;
+  }
+
+  .calendario-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 389px;
+    height: auto;
+    margin-top: -120px;
+  }
+
+  .calendario-textcontainer{
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .calendario-text{
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+  }
+
+  .calendario{
+    width: 392px;
+    height: 615px;
+  }
+
+  .program-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 0 16px;
+    margin-top: 88px;
+  }
+
+  h4{
+  font-size: 28px;
+  text-align: center;
+  }
+
+  .feature-grid1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-grid2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-card{
+    width: 250px;
+    height: auto;
+    border-width: 1px;
+    padding: 60px;
+  }
+
+  .cta-button{
+    display: none;
+  }
+
+    swiper-container {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  swiper-slide {
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .slide-text-container {
+    padding: 16px;
+  }
+
+  .footer-section {
+    padding-bottom: 32px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .footer-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 280px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .logo-footer{
+    width: 120px;
+    height: 120px;
+  }
+  #footer-text-1 {
+    display: none;
+  }
+
+    #footer-text-2 {
+    margin-top: -25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

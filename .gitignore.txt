@@ -1,0 +1,3 @@
+# Dependencias y archivos generados
+node_modules/
+.cache/
