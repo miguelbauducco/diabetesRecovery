@@ -138,9 +138,11 @@ a:hover {
     z-index: 1;
     width: 1363px;
     height: 767px;
-    border-radius: 30px;
     margin-top: 25px;
-    border-radius: 30px
+  }
+
+  .videoDesktop{
+    display: block;
   }
 
 
@@ -336,8 +338,7 @@ a:hover {
     display: flex;
     display: row;
     justify-content: space-between;
-    margin-top: 120px;
-    gap: 5px;
+    margin-top: 200px;
   }
 
   .calendario-textcontainer{
@@ -373,6 +374,7 @@ a:hover {
     box-sizing: border-box;
     box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
     box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
   }
 
   h4{
@@ -577,7 +579,7 @@ color: rgba(255, 255, 255, 1);
 
 /*MOBILE*/
 
-@media (max-width: 440px) {
+@media (max-width: 768px) {
 
   html, body {
     margin: 0;
@@ -641,9 +643,11 @@ color: rgba(255, 255, 255, 1);
     flex-direction: column;
     justify-content: center;
     margin-top: 80px;
-    border-radius: 30px;
+    border: none;
   }
 
+
+  
   .videoDesktop{
     display: none;
   }
@@ -651,7 +655,6 @@ color: rgba(255, 255, 255, 1);
 
   .videoMobile{
     display: block;
-    border-radius: 30px;
   }
 
 
@@ -890,9 +893,9 @@ color: rgba(255, 255, 255, 1);
     #footer-text-2 {
     margin-top: -25px;
   }
+
+
 }
-
-
 
 
 
