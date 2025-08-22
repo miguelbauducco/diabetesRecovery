@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55376577.css",
+    "main.js": "/static/js/main.77d76639.js",
+    "static/media/HORIZONTAL_C.mp4": "/static/media/HORIZONTAL_C.5aa902d16c8e1207ed9f.mp4",
+    "static/media/VERTICAL_C.mp4": "/static/media/VERTICAL_C.bd2e3c3f1138a83ade4c.mp4",
+    "static/media/lucas.png": "/static/media/lucas.729260fb51ca1d08eb65.png",
+    "static/media/logo.png": "/static/media/logo.7da1e701364a92badb10.png",
+    "static/media/logofooter.png": "/static/media/logofooter.cf669d2e716b088e015e.png",
+    "static/media/metodologia.png": "/static/media/metodologia.61f6015d850b4864d0ba.png",
+    "static/media/glucemiapromedio2.png": "/static/media/glucemiapromedio2.e6db13a33daad92cd9dc.png",
+    "static/media/acompanamiento.png": "/static/media/acompanamiento.b082f42e592f403244e2.png",
+    "static/media/fitness.png": "/static/media/fitness.ff765760b3ac3c21fc69.png",
+    "static/media/suisseintl-book.otf": "/static/media/suisseintl-book.30ad3a64be8c976d9a31.otf",
+    "static/media/glucemiapromedio.png": "/static/media/glucemiapromedio.f2aa5391f10a88027a46.png",
+    "static/media/educacion.png": "/static/media/educacion.1455495882b7a6cfcccc.png",
+    "static/media/asesoramiento.png": "/static/media/asesoramiento.cb4085f2cf9a0e6d28b6.png",
+    "static/media/graficosglucemiamobile.png": "/static/media/graficosglucemiamobile.1dad8298a2dff374c554.png",
+    "static/media/graficohemoglobina.png": "/static/media/graficohemoglobina.1e7607a42ee5ad592d5d.png",
+    "static/media/EVOLUCION HEMOGLOBINA GLICOSADA_2.png": "/static/media/EVOLUCION HEMOGLOBINA GLICOSADA_2.02cdadfa87d52a0f211d.png",
+    "static/media/poppins-devanagari-400-normal.woff": "/static/media/poppins-devanagari-400-normal.421fe9869ff4b58e2d7b.woff",
+    "static/media/poppins-devanagari-400-normal.woff2": "/static/media/poppins-devanagari-400-normal.d2ee5e6ea17bffe3bf58.woff2",
+    "static/media/poppins-latin-400-normal.woff": "/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
+    "static/media/poppins-latin-400-normal.woff2": "/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff": "/static/media/poppins-latin-ext-400-normal.7e12786771ac4a8e6a5c.woff",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.d7c074a9c34fe9785f69.woff2",
+    "index.html": "/index.html",
+    "main.55376577.css.map": "/static/css/main.55376577.css.map",
+    "main.77d76639.js.map": "/static/js/main.77d76639.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55376577.css",
+    "static/js/main.77d76639.js"
+  ]
+}
