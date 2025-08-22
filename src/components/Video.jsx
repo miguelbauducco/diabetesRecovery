@@ -7,11 +7,27 @@ function Video() {
     <div className="video-container">
     <video 
     className="video1"
+    autoPlay
+    muted
+    loop
+    playsInline
+    controls
+    controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
+    preload="metadata"
+    disablePictureInPicture
     src="/videos/HORIZONTAL_C.mp4"
     />
 
     <video
     className="video2"
+    autoPlay
+    muted
+    loop
+    playsInline
+    controls
+    controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
+    preload="metadata"
+    disablePictureInPicture
     src="/videos/VERTICAL_C.mp4"
     />
     </div>
