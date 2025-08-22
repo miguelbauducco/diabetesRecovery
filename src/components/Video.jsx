@@ -1,6 +1,5 @@
 import React from 'react';
-import videoHorizontal from '../Assets/videos/HORIZONTAL_C.mp4'
-import videoVertical from '../Assets/videos/VERTICAL_C.mp4'
+
 
 
 function Video() {
@@ -16,7 +15,7 @@ function Video() {
     controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
     preload="metadata"
     disablePictureInPicture
-    src={videoHorizontal}
+    src="/videos/HORIZONTAL_C.mp4"
     />
     <video
     className="video2"
@@ -28,11 +27,9 @@ function Video() {
     controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
     preload="metadata"
     disablePictureInPicture
-    src={videoVertical}
+    src="/videos/VERTICAL_C.mp4"
     />
     </div>
-
-
 
   );
 }
