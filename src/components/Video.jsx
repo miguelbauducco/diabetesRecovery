@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 function Video() {
   return (
     <div className="video-container">
@@ -15,9 +14,9 @@ function Video() {
     controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
     preload="metadata"
     disablePictureInPicture
-    src={`${process.env.PUBLIC_URL}/videos/HORIZONTAL_C.mp4`}
-
+    src="./videos/HORIZONTAL_C.mp4"
     />
+
     <video
     className="video2"
     autoPlay
