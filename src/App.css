@@ -157,7 +157,12 @@ a:hover {
     align-items: center;
     width: 100%;
     margin-top: 0px;
+    display: block;
   }
+
+  .hero-message-mobile {
+    display: none;
+  } 
 
   .text1{
   font-family: "SuisseIntlMono1";
@@ -578,17 +583,17 @@ font-size: 12px;
 color: rgba(255, 255, 255, 1);
 }
 
+
 /*MOBILE*/
 
 @media (max-width: 768px) {
-
   html, body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
-    max-width: 440px;
     overflow-x: hidden;
+    box-sizing: border-box;
   }
 
   .main-container {
@@ -597,159 +602,166 @@ color: rgba(255, 255, 255, 1);
     justify-content: center;
     align-items: center;
     max-width: 440px;
-    padding: 0 16px;
+    width: 100%;
+    padding: 0;
     box-sizing: border-box;
   }
 
-
-  .background{
-    align-content: center;
+  .background {
+    background: linear-gradient(180deg, #FFFFFF 1.11%, #A2D3EB 49.18%, #FFFFFF 68.94%);
     max-width: 440px;
-    background:linear-gradient(180deg, #FFFFFF 1.11%, #A2D3EB 49.18%, #FFFFFF 68.94%); 
+    padding: 0;
+    width: 100%;
+    align-content: center;
   }
 
-  .navbar{
+  .navbar {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:none;
     align-items: center;
+    align-content: center;
+    background: none;
   }
 
-  .nav-left{
+  .nav-left {
     display: none;
   }
-  .nav-right{
+
+  .nav-right {
     margin-top: 150px;
     display: flex;
     flex-direction: column;
-    margin-left: -22px;
   }
 
-  .nav-center{
-    margin-top:250px;
-    border-radius: 0;
-    background:none;
+  .nav-center {
+    margin-top: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: none;
+    border-radius: 0;
   }
 
-  .imglogo{
+  .imglogo {
+    margin-left: 18px;
     width: 173px;
     height: 214px;
-    align-items: center;
   }
 
-  .video-container{
-    display:flex;
+  .video-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 80px;
+    width: 100%;
     border: none;
   }
 
-
-  
-  .videoDesktop{
+  .videoDesktop {
     display: none;
   }
 
-
-  .videoMobile{
+  .videoMobile {
     display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .hero-section{
+    margin-top: -50px;
+  }
+  
+  .hero-message{
+    display: none;
   }
 
-
-  .hero-message{
+  .hero-message-mobile {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    align-items: center;
     text-align: center;
-    gap: 8px;
+    gap: 16px;
   }
 
-  .text1{
+  .text1, .text2 {
     font-family: "SuisseIntlMono1";
     font-weight: 450;
     font-size: 40px;
     text-align: center;
+  }
+
+  .text1 {
     color: rgba(255, 255, 255, 1);
   }
 
-
-  .text2{
+  .text2 {
     margin-top: -50px;
-    font-family: "SuisseIntlMono1";
-    font-weight: 450;
-    font-size: 40px;
-    text-align: center;
     color: rgba(36, 81, 122, 1);
   }
 
-  .btn-container{
+  .btn-container {
     margin-top: 10px;
   }
 
-  .about-lucas{
+  .about-lucas, .about-text, .resultados-section, .grafico-glucemia-mobile, .calendario-section, .calendario-text, .calendario {
+    width: 100%;
+    max-width: 391px;
+    box-sizing: border-box;
+  }
+
+  .about-lucas {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    width: 391px;
   }
 
-  .about-text{
+  .about-text {
     font-size: 15px;
-    width: 391px;
   }
 
-  h2{
+  h2 {
     font-size: 28px;
-  }  
+  }
 
-  .about-img{
+  .about-img {
     margin-top: 250px;
     width: 100%;
     height: auto;
     border-radius: 20px;
   }
 
-  .resultados-section{
+  .resultados-section {
     margin-top: 45px;
     display: flex;
     flex-direction: column;
-    width: 391px;
   }
 
-  .graficos-glucemia{
+  .graficos-glucemia {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .grafico-glucemia1{
+  .grafico-glucemia1 {
     display: none;
   }
 
-  .grafico-glucemia-mobile{
+  .grafico-glucemia-mobile {
     display: block;
-    width: 391px;
-    height: 781px;
+    height: auto;
     border-width: 1px;
   }
 
-  .grafico-glucemia2{
+  .grafico-glucemia2 {
     width: 186px;
     height: 384px;
   }
 
-  .imagenes-evolucion{
+  .imagenes-evolucion {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -758,80 +770,72 @@ color: rgba(255, 255, 255, 1);
     border-width: 1px;
   }
 
-  .grafico-1{
+  .grafico-1 {
     width: 100%;
-    height:auto;
+    height: auto;
   }
 
-  .grafico-2{
+  .grafico-2 {
     width: 100%;
     height: 150px;
     display: block;
     margin-top: -80px;
   }
 
-  .calendario-section{
+  .calendario-section {
+    margin-top: 88px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 389px;
     height: auto;
-    margin-top: -120px;
   }
 
-  .calendario-textcontainer{
+  .calendario-textcontainer {
     align-items: center;
     width: 100%;
     height: auto;
   }
 
-  .calendario-text{
+  .calendario-text {
     font-size: 16px;
-    width: 100%;
-    height: auto;
     text-align: justify;
   }
 
-  .calendario{
-    width: 392px;
+  .calendario {
     height: 615px;
   }
 
-  .program-features{
+  .program-features {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
     height: auto;
+    width: 90%;
     margin-top: 88px;
   }
 
-  h4{
-  font-size: 28px;
-  text-align: center;
+  h4 {
+    font-size: 28px;
+    text-align: center;
   }
 
-  .feature-grid1{
+  .feature-grid1, .feature-grid2 {
     display: flex;
     flex-direction: column;
   }
 
-  .feature-grid2{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .feature-card{
-    width: 250px;
+  .feature-card {
+    width: 100%;
     height: auto;
     border-width: 1px;
+    box-sizing: border-box;
   }
 
-  .cta-button{
+  .cta-button {
     display: none;
   }
 
-    swiper-container {
+  swiper-container {
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
@@ -849,7 +853,8 @@ color: rgba(255, 255, 255, 1);
   }
 
   .footer-section {
-    padding-bottom: 32px;
+    padding-bottom: 28px; 
+    margin-top: 120px;
   }
 
   .footer-container {
@@ -860,6 +865,7 @@ color: rgba(255, 255, 255, 1);
     padding: 0 16px;
     text-align: center;
     gap: 24px;
+    box-sizing: border-box;
   }
 
   .footer-row {
@@ -881,26 +887,16 @@ color: rgba(255, 255, 255, 1);
     box-sizing: border-box;
   }
 
-  .logo-footer{
+  .logo-footer {
     width: 120px;
     height: 120px;
   }
+
   #footer-text-1 {
     display: none;
   }
 
-    #footer-text-2 {
+  #footer-text-2 {
     margin-top: -25px;
   }
-
-
 }
-
-
-
-
-
-
-
-
-
