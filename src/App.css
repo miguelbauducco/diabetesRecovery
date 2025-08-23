@@ -900,3 +900,95 @@ color: rgba(255, 255, 255, 1);
     margin-top: -25px;
   }
 }
+
+/* iPhone SE / móviles pequeños (≤360px) */
+@media (max-width: 360px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+
+  .main-container {
+    padding: 0 ;
+    max-width: 100%;
+  }
+
+  .text1, .text2 {
+    font-size: 28px;
+  }
+
+  .feature-card {
+    padding: 16px;
+  }
+
+  .about-text, .calendario-text {
+    font-size: 14px;
+  }
+
+  .grafico-glucemia-mobile {
+    height: auto;
+  }
+}
+
+/* iPhone 12 / Galaxy S22 / móviles estándar (≤430px) */
+@media (max-width: 430px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+
+
+  .main-container {
+    max-width: 100%;
+  }
+
+  .video-container {
+    margin-top: 60px;
+    width: 100%;
+  }
+
+  .videoMobile {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .hero-message {
+    padding: 0 16px;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .text1, .text2 {
+    font-size: 32px;
+  }
+
+  .feature-card {
+    width: 100%;
+    padding: 24px;
+  }
+
+  .about-img {
+    margin-top: 250px;
+    border-radius: 16px;
+  }
+
+  .footer-container {
+    padding: 0 16px;
+    gap: 24px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+    max-width: 280px;
+  }
+}
