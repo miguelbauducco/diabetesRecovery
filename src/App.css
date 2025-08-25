@@ -947,9 +947,7 @@ color: rgba(255, 255, 255, 1);
     overflow-x: hidden; 
   }
 
-
   .main-container, .background {
-    max-width: 440px;
     padding: 0 16px;
     width: 100%;
   }
@@ -995,6 +993,7 @@ color: rgba(255, 255, 255, 1);
     font-size: 10px;
     max-width: 280px;
   }
+
 
   
 
