@@ -24,7 +24,7 @@ function Navbar({ onClick }) {
             document.getElementById("calendly")?.scrollIntoView({ behavior: "smooth" });
           }}
           className="btn-ayuda"
-        >Necesito ayuda
+        ><p className='btn-text'>Necesito ayuda</p>
         </button>
       </div>
     </nav>
