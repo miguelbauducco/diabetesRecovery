@@ -245,7 +245,6 @@ a:hover {
   .about-img{
     width: 640px;
     height: 425px;
-    margin-top: 40px;
     background: linear-gradient(180deg, #B3DBEF -6.84%, #275782 105.9%);
     border-radius: 20px;
   }
