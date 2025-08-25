@@ -673,9 +673,6 @@ color: rgba(255, 255, 255, 1);
     object-fit: cover;
     border-radius: 8px;
   }
-  .hero-section{
-    margin-top: -50px;
-  }
   
   .hero-message{
     display: none;
@@ -711,7 +708,7 @@ color: rgba(255, 255, 255, 1);
 
   .about-lucas, .about-text, .resultados-section, .grafico-glucemia-mobile, .calendario-section, .calendario-text, .calendario {
     width: 100%;
-    max-width: 391px;
+    margin: auto;
     box-sizing: border-box;
   }
 
@@ -981,7 +978,6 @@ color: rgba(255, 255, 255, 1);
   }
 
   .about-img {
-    margin-top: 250px;
     border-radius: 16px;
   }
 
