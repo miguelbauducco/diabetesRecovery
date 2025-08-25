@@ -586,9 +586,12 @@ color: rgba(255, 255, 255, 1);
 
 /*MOBILE*/
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+
   html, body {
     margin: 0;
+    width: 100%;
     padding: 0;
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
@@ -601,7 +604,7 @@ color: rgba(255, 255, 255, 1);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 440px;
+    max-width: 100%;
     width: 100%;
     padding: 0;
     box-sizing: border-box;
@@ -609,7 +612,7 @@ color: rgba(255, 255, 255, 1);
 
   .background {
     background: linear-gradient(180deg, #FFFFFF 1.11%, #A2D3EB 49.18%, #FFFFFF 68.94%);
-    max-width: 440px;
+    max-width: 100%;
     padding: 0;
     width: 100%;
     align-content: center;
@@ -902,7 +905,7 @@ color: rgba(255, 255, 255, 1);
 }
 
 /* iPhone SE / móviles pequeños (≤360px) */
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
   html, body {
     margin: 0;
     padding: 0;
@@ -912,7 +915,7 @@ color: rgba(255, 255, 255, 1);
     box-sizing: border-box;
   }
 
-  .main-container {
+  .main-container,.background {
     padding: 0 ;
     max-width: 100%;
   }
@@ -935,19 +938,20 @@ color: rgba(255, 255, 255, 1);
 }
 
 /* iPhone 12 / Galaxy S22 / móviles estándar (≤430px) */
-@media (max-width: 430px) {
+@media screen and (max-width: 430px) {
   html, body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
     width: 100%;
-    overflow-x: hidden;
-    box-sizing: border-box;
+    overflow-x: hidden; 
   }
 
 
-  .main-container {
-    max-width: 100%;
+  .main-container, .background {
+    max-width: 440px;
+    padding: 0 16px;
+    width: 100%;
   }
 
   .video-container {
@@ -991,4 +995,9 @@ color: rgba(255, 255, 255, 1);
     font-size: 10px;
     max-width: 280px;
   }
+
+  
+
+  
+
 }
