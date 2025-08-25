@@ -42,9 +42,7 @@ function Video() {
           borderRadius: '30px',
           overflow: 'hidden',
           width: '100%',
-          maxWidth: '400px',
-          height: '700px',
-          marginTop:"30px",
+          height:'570px',
           boxShadow: '0 0 20px rgba(0, 0, 0, 0.1)',
         }}
       >
