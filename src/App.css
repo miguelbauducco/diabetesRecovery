@@ -953,6 +953,7 @@ color: rgba(255, 255, 255, 1);
   .video-container {
     margin-top: 60px;
     width: 100%;
+    margin: auto;
   }
 
   .videoMobile {
@@ -982,7 +983,7 @@ color: rgba(255, 255, 255, 1);
   }
 
   .footer-container {
-    padding: 0 16px;
+    padding: 0;
     gap: 24px;
   }
 
@@ -992,8 +993,5 @@ color: rgba(255, 255, 255, 1);
   }
 
 
-  
-
-  
 
 }
