@@ -142,15 +142,35 @@ a:hover {
     flex-direction: column;
     align-items: center;
     z-index: 1;
-    width: 1363px;
-    height: 767px;
-    margin-top: 25px;
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
     transition: all 0.3s ease-in-out;
   }
 
-  .videoDesktop{
-    display: block;
-  }
+
+  .videoDesktop {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  aspect-ratio: 16 / 9;
+  margin: 40px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.videoDesktop iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
 
 
   .videoMobile{
@@ -664,9 +684,6 @@ color: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 80px;
-    width: 100%;
-    border: none;
   }
 
   .videoDesktop {
@@ -674,15 +691,22 @@ color: rgba(255, 255, 255, 1);
   }
 
   .videoMobile {
-    display: block;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    border-radius: 30px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
   }
-  
+
+  .videoMobile iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  }
+
   .hero-message{
     display: none;
   }
@@ -1005,16 +1029,29 @@ color: rgba(255, 255, 255, 1);
 
   .video-container {
     margin-top: 60px;
-    width: 100%;
-    margin: auto;
+    width: 100vw;
+    margin: 0 0;
+    padding: 0;
+    margin-top: 90px;
   }
 
   .videoMobile {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 30px;
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16; 
+  border-radius: 30px; 
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.videoMobile iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
   }
 
   .hero-message {
