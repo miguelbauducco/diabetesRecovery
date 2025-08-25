@@ -272,14 +272,14 @@ a:hover {
   .subtitulo1{
   font-family: "SuisseIntlMono1";
   font-weight: 450;
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(11, 31, 54, 1);  
   }
 
   .subtitulo2{
   font-family: "SuisseIntlMono1";
   font-weight: 450;
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(11, 31, 54, 1);  
   margin-top: 58px;
   }
@@ -812,7 +812,7 @@ color: rgba(255, 255, 255, 1);
   }
 
   .calendario-section {
-    margin-top: 88px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -946,6 +946,11 @@ color: rgba(255, 255, 255, 1);
     max-width: 100%;
   }
 
+  .subtitulo2{
+    text-align: start;
+    font-size: 16px;
+  }
+
   .text1, .text2 {
     font-size: 28px;
   }
@@ -961,6 +966,15 @@ color: rgba(255, 255, 255, 1);
   .grafico-glucemia-mobile {
     height: auto;
   }
+
+  .grafico-2{
+    width: 100%;
+    height: 118px;
+    border-radius: 15px;
+    border-width: 1px;
+  }
+
+
 }
 
 /* iPhone 12 / Galaxy S22 / móviles estándar (≤430px) */
