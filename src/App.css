@@ -636,6 +636,9 @@ color: rgba(255, 255, 255, 1);
     margin-top: 150px;
     display: flex;
     flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .nav-center {
@@ -726,8 +729,9 @@ color: rgba(255, 255, 255, 1);
   h2 {
     font-size: 28px;
   }
-  
+
   .btn-ayuda{
+    text-align: center;
     border-radius: 30px;
     box-sizing: border-box;
     box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
