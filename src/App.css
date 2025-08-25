@@ -811,6 +811,7 @@ color: rgba(255, 255, 255, 1);
     margin-top: -80px;
   }
 
+
   .calendario-section {
     margin-top: 88px;
     display: flex;
@@ -844,7 +845,7 @@ color: rgba(255, 255, 255, 1);
   }
 
   h4 {
-    font-size: 28px;
+    font-size: 23px;
     text-align: center;
   }
 
@@ -940,6 +941,7 @@ color: rgba(255, 255, 255, 1);
     overflow-x: hidden;
     box-sizing: border-box;
   }
+
 
   .main-container,.background {
     padding: 0 16px ;
