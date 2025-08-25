@@ -8,7 +8,7 @@ function Navbar({ onClick }) {
     <nav className="navbar">
       <div className="nav-left">
         <a href="#lucas" className="navtext">LUCAS</a>
-        <a href="#resultados" className="navtext">RESULTADOS</a>
+        <a href="#resultados" className="navtext">RESULTADO</a>
         <a href="#faq" className="navtext">PREGUNTAS FRECUENTES</a>
       </div>
       
