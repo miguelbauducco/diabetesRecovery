@@ -52,7 +52,7 @@ function Video() {
           src="https://streamable.com/e/rjvo28?autoplay=1&muted=1"
           style={{
             width: '100%',
-            height: '100%',
+            height: '700px',
             display: 'block',
             border: 'none',
           }}
