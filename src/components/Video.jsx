@@ -6,7 +6,6 @@ function Video() {
       {/* Desktop video */}
       <div className="videoDesktop">
         <iframe
-          allow="fullscreen;autoplay"
           src="https://streamable.com/e/cbvxmn?autoplay=1&muted=1"
         />
       </div>
@@ -14,7 +13,6 @@ function Video() {
       {/* Mobile video */}
       <div className="videoMobile">
         <iframe
-          allow="fullscreen;autoplay"
           src="https://streamable.com/e/rjvo28?autoplay=1&muted=1"
         />
       </div>
