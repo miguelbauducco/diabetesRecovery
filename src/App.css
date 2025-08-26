@@ -133,6 +133,7 @@ a:hover {
     font-size: 14px;
     font-family: 'Poppins';
     color: white;
+    justify-content: center;
     text-align: center;
     font-weight: 500;
   }
@@ -969,6 +970,13 @@ color: rgba(255, 255, 255, 1);
     overflow-x: hidden;
     box-sizing: border-box;
   }
+    .btn-text{
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+    font-weight: 500;
+  }
 
 
   .main-container,.background {
@@ -1015,6 +1023,14 @@ color: rgba(255, 255, 255, 1);
     font-family: 'Inter', sans-serif;
     width: 100%;
     overflow-x: hidden; 
+  }
+
+    .btn-text{
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+    font-weight: 500;
   }
 
   .main-container{
