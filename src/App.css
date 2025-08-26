@@ -238,7 +238,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    column-gap: 135px;
+    column-gap: 130px;
   }
 
 
@@ -250,6 +250,7 @@ a:hover {
     font-family: 'Public Sans';
     width: 638px;
     height: 361px;
+    padding: 0;
   }
 
 
