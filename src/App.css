@@ -67,16 +67,17 @@ a:hover {
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin-left: -47px;
+  margin-left: -56px;
   margin-top: 10px;
   gap:90px;
+  justify-content: space-between;
   }
 
   .navtext{
   font-family:"Poppins";
   font-weight: 500;
   color:rgba(11, 31, 54, 1);
-  font-size: 14px;
+  font-size: 13px;
   border: 0.4px solid rgba(255, 255, 255, 1);
   }
 
@@ -88,7 +89,7 @@ a:hover {
   position: absolute;
   width: 284px;
   height: 284px;
-  left: 50%;
+  left: 51%;
   transform: translate(-52%, -52%);
   background-color: rgba(255, 255, 255, 1);
   border-radius:50%;
