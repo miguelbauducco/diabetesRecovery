@@ -36,7 +36,7 @@
     height: auto;
     margin: 0;
     padding: 0;
-    background:linear-gradient(180deg, #FFFFFF 1.11%, #A2D3EB 49.18%, #FFFFFF 68.94%); 
+    background: linear-gradient(180deg, #FFFFFF 10%, #A2D3EB 70%, #FFFFFF 90%);
   }
 
   .navbar {
@@ -101,6 +101,7 @@ a:hover {
     height: 214px;
     width: 214px;
     object-fit: contain;
+    background: none;
   }
 
   .nav-right{
@@ -147,6 +148,7 @@ a:hover {
     margin: 0 auto;
     padding: 0;
     transition: all 0.3s ease-in-out;
+    margin-top: -25px;
   }
 
 
