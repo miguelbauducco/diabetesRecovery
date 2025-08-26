@@ -1118,10 +1118,12 @@ font-style:Regular;
   
   .nav-right{
     margin-top: 115px;
+    padding-right: 1px;
   }
 
   .nav-center{
     margin-top: 225px;
+    padding-right: 8px;
   }
 
   .about-img {
