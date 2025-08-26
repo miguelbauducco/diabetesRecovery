@@ -1110,3 +1110,40 @@ color: rgba(255, 255, 255, 1);
 }
 
 }
+
+@media screen and (max-width: 430px) and (min-height: 850px) {
+  
+  .nav-right{
+    margin-top: 115px;
+  }
+
+  .nav-center{
+    margin-top: 225px;
+  }
+
+  .about-img {
+    margin-top: clamp(200px, 20vh, 280px);
+  }
+
+  .footer-section {
+    position: relative;
+    margin-top: 120px;
+    background: linear-gradient(0deg, #24517A 0%, rgba(66, 149, 224, 0.75) 100%);
+  }
+
+  .hero-message-mobile {
+    margin-top: 0;
+    gap: 24px;
+  }
+
+  .text1,
+  .text2 {
+    font-size: clamp(32px, 4vw, 40px);
+  }
+
+  .video-container {
+    margin-top: 60px;
+  }
+
+}
+
