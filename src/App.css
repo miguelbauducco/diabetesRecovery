@@ -768,7 +768,9 @@ color: rgba(255, 255, 255, 1);
   }
 
   .btn-ayuda{
+    display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     border-radius: 30px;
     box-sizing: border-box;
@@ -970,14 +972,6 @@ color: rgba(255, 255, 255, 1);
     overflow-x: hidden;
     box-sizing: border-box;
   }
-    .btn-text{
-    font-size: 14px;
-    font-family: 'Poppins';
-    color: white;
-    text-align: center;
-    font-weight: 500;
-  }
-
 
   .main-container,.background {
     padding: 0 16px ;
@@ -1025,13 +1019,6 @@ color: rgba(255, 255, 255, 1);
     overflow-x: hidden; 
   }
 
-    .btn-text{
-    font-size: 14px;
-    font-family: 'Poppins';
-    color: white;
-    text-align: center;
-    font-weight: 500;
-  }
 
   .main-container{
     padding: 0 16px;
