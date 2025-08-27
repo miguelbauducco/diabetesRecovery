@@ -32,12 +32,6 @@ export default function ResultadosSection() {
         />
 
         <img 
-          src={evolucionhemoglobinaMobile} 
-          className='grafico-2-mobile'
-          alt="grafico" 
-        />
-
-        <img 
           src={evolucionhemoglobina2}
           alt="Informe A1c 2"
           className="grafico-2"
