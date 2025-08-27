@@ -375,29 +375,26 @@ a:hover {
     display: row;
     justify-content: space-between;
     margin-top: 200px;
+    gap: 20px;
   }
 
   .calendario-textcontainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 150px;
     width: 637px;
     height: 239px;
-    padding: 20px;
   }
 
   .calendario-text{
     font-family: 'Public Sans';
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     text-align: justify;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    width: 637px;
-    height: 239px;
     color:#24517A;
+    letter-spacing: 0%;
+    line-height: 1.6;
   }
 
   .calendario{
@@ -1156,6 +1153,67 @@ font-style:Regular;
   }
 
 }
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  /* Estilos específicos para tablets */
+
+  .main-container, .background{
+    padding: 0 18px;
+  }
+
+  .text1, .text2 {
+    font-size: 32px;
+  }
+
+  .video-container{
+    margin-top: 120px;
+    width: 100%;
+    border-radius: 30%;
+  }
+
+  .videoMobile {
+    aspect-ratio: 16 / 9;
+  }
+
+  .footer-section {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+
+  html, body {
+  overflow-x: hidden;
+  }
+
+  .nav-left{
+    margin-right: 360px;
+  }
+
+  .nav-right{
+    margin-left: 5px;
+    align-content: center;
+  }
+
+  .program-features, .feature-grid1, .feature-grid2{
+    padding: 0 18px;
+    gap: 24px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  .btn-ayuda {
+    padding: 14px 32px;
+    font-size: 18px;
+  }
+
+
+  
+}
+
+
 
 
 
