@@ -3,6 +3,7 @@ import glucemiaimg2 from '../Assets/img/glucemiapromedio2.png'
 import glucemiaImgMobile from '../Assets/img/graficosglucemiamobile.png'
 import evolucionhemoglobina1 from '../Assets/img/graficohemoglobina.png'
 import evolucionhemoglobina2 from '../Assets/img/EVOLUCION HEMOGLOBINA GLICOSADA_2.png'
+import evolucionhemoglobinaMobile from '../Assets/img/graficoglucemiamobile2.png'
 
 export default function ResultadosSection() {
   return (
@@ -29,6 +30,13 @@ export default function ResultadosSection() {
           alt="Informe A1c 1"
           className="grafico-1"
         />
+
+        <img 
+          src={evolucionhemoglobinaMobile} 
+          className='grafico-2-mobile'
+          alt="grafico" 
+        />
+
         <img 
           src={evolucionhemoglobina2}
           alt="Informe A1c 2"

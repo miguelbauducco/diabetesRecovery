@@ -356,7 +356,12 @@ a:hover {
     border-width: 1px;
   }
 
+  .grafico-2-mobile{
+    display: none;
+  }
+
   .grafico-2{
+    display: block;
     width: 785px;
     height: 231px;
     border-radius: 25px;
@@ -844,12 +849,15 @@ font-style:Regular;
   }
 
   .grafico-2 {
-    width: 100%;
-    height: 150px;
+    display: none;
+  }
+
+  .grafico-2-mobile {
+    width: 105%;
+    height: auto;
     display: block;
     margin-top: -80px;
   }
-
 
   .calendario-section {
     margin-top: 140px;
@@ -1015,6 +1023,7 @@ font-style:Regular;
     height: 118px;
     border-radius: 15px;
     border-width: 1px;
+    display: none;
   }
 
 
@@ -1159,6 +1168,9 @@ font-style:Regular;
   .video-container {
     margin-top: 60px;
   }
+  .grafico-2{
+    display:none
+  }
 
 }
 
@@ -1186,6 +1198,10 @@ font-style:Regular;
 
   .footer-section {
     margin-top: 80px;
+  }
+
+  .grafico-2{
+    display: none;
   }
 }
 
@@ -1215,6 +1231,10 @@ font-style:Regular;
   .btn-ayuda {
     padding: 14px 32px;
     font-size: 18px;
+  }
+
+  .grafico-2{
+    display: none;
   }
 
 
