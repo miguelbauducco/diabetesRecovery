@@ -849,6 +849,7 @@ font-style:Regular;
     height: 150px;
     display: block;
     margin-top: -80px;
+    border-width: 1px;
     }
 
   .calendario-section {
@@ -1015,7 +1016,6 @@ font-style:Regular;
     height: 118px;
     border-radius: 15px;
     border-width: 1px;
-    display: none;
   }
 
 
