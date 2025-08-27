@@ -748,7 +748,11 @@ font-style:Regular;
     text-align: center;
   }
 
-  .about-lucas, .about-text, .resultados-section, .grafico-glucemia-mobile, .calendario-section, .calendario-text, .calendario {
+  .calendario-textcontainer{
+    margin-top: -30px;
+  }
+
+  .about-lucas, .about-text, .resultados-section, .grafico-glucemia-mobile, .calendario-section, .calendario {
     width: 100%;
     margin: auto;
     box-sizing: border-box;
@@ -864,6 +868,9 @@ font-style:Regular;
   .calendario-text {
     font-size: 16px;
     text-align: justify;
+    white-space: normal;
+    word-break: break-word;
+    hyphens: auto;
   }
 
   .calendario {
@@ -875,7 +882,7 @@ font-style:Regular;
     flex-direction: column;
     justify-content: center;
     height: auto;
-    width: 90%;
+    width: 100%;
     margin-top: 88px;
   }
 
