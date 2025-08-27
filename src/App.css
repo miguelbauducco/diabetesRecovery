@@ -272,9 +272,10 @@ a:hover {
   }
 
   .about-img{
-    width: 640px;
+    margin-top: 30px;
+    width: 522px;
     height: 425px;
-    background: linear-gradient(180deg, #B3DBEF -6.84%, #275782 105.9%);
+    object-fit: cover;
     border-radius: 20px;
   }
 
@@ -1051,7 +1052,7 @@ font-style:Regular;
   border-radius: 30px; 
   overflow: hidden;
   margin: 0 auto;
-}
+  }
 
 .videoMobile iframe {
   position: absolute;
@@ -1100,7 +1101,7 @@ font-style:Regular;
   width: 100vw;
   z-index: 9999;
   background: linear-gradient(0deg, #24517A 0%, rgba(66, 149, 224, 0.75) 100%);
-}
+  }
 
 #faq{
   font-size: 23px;
