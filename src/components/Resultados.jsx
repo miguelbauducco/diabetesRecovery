@@ -1,9 +1,10 @@
-import glucemiaimg from '../Assets/img/glucemiapromedio.png';
-import glucemiaimg2 from '../Assets/img/glucemiapromedio2.png'
-import glucemiaImgMobile from '../Assets/img/graficosglucemiamobile.png'
+import glucemiaimg1 from '../Assets/img/glucemiapromedio2.png'
+import glucemiaimg2 from '../Assets/img/glucemiapromedio3.png'
+import glucemiaimg3 from '../Assets/img/glucemiapromedio4.png'
+import glucemiaimg4 from '../Assets/img/glucemiapromedio5.PNG'
+import glucemiaimg5 from '../Assets/img/glucemiapromedio6.PNG'
 import evolucionhemoglobina1 from '../Assets/img/graficohemoglobina.png'
 import evolucionhemoglobina2 from '../Assets/img/EVOLUCION HEMOGLOBINA GLICOSADA_2.png'
-import evolucionhemoglobinaMobile from '../Assets/img/graficoglucemiamobile2.png'
 
 export default function ResultadosSection() {
   return (
@@ -15,11 +16,16 @@ export default function ResultadosSection() {
 
       <div className="graficos-glucemia">
 
-      <img src={glucemiaimg} alt="Gráfico de glucemia promedio" className="grafico-glucemia1"/>
+      <img src={glucemiaimg1} alt="grafico-glucemia 1" className="grafico-glucemia2"/>
+      
+      <img src={glucemiaimg2} alt="grafico-glucemia 2" className="grafico-glucemia2" />
 
-      <img src={glucemiaImgMobile} alt="grafico de glucemia promedio" className="grafico-glucemia-mobile"/>
+      <img src={glucemiaimg3} alt="grafico-glucemia 3" className="grafico-glucemia2" style={{border:"none"}}/>
 
-      <img src={glucemiaimg2} alt="grafico-glucemia 2" className="grafico-glucemia2"/>
+      <img src={glucemiaimg4} alt="grafico-glucemia 4" className="grafico-glucemia2"/>
+
+      <img src={glucemiaimg5} alt="grafico-glucemia 5" className="grafico-glucemia2"/>
+
 
       </div>
 

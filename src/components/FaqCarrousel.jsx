@@ -3,6 +3,8 @@ import { register } from "swiper/element/bundle";
 
 register();
 
+
+
 export const FaqCarrousel = () => {
   const swiperElRef = useRef(null);
 
@@ -34,9 +36,11 @@ export const FaqCarrousel = () => {
       autoplay-delay="5000"
       direction="horizontal"
       loop="true"
+      navigation="true"
     >
+      
       <swiper-slide>
-        <div className="slide-text-container">
+        <div className="slide-text-container ">
           <p className="slide-text1">¿Este programa es solo para Diabetes tipo 1?</p><br />
           <p className="slide-text2">No. Está diseñado para personas con Diabetes tipo 1, tipo 2 y Prediabetes, con análisis de cada paciente y planes personalizados según cada caso.</p>
         </div>
@@ -125,6 +129,7 @@ export const FaqCarrousel = () => {
           <p className="slide-text2">Sí. Este programa se basa en un enfoque integral basado en los pilares fundamentales de alimentación, entrenamiento, calidad de sueño y gestión del estrés. Lo que lo hace distinto es el trabajo con acompañamiento 1 a 1, haciendo hincapié en profundidad sobre tus hábitos y tu mentalidad.</p>
         </div>
       </swiper-slide>
+      
     </swiper-container>
   );
 };
