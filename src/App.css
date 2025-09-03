@@ -160,7 +160,7 @@ a:hover {
   position: relative;
   width: 100%;
   max-width: 1400px;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 9 !important;
   margin: 40px;
   border-radius: 30px;
   overflow: hidden;
@@ -450,7 +450,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   padding: 30px;
-  width: 436px;
+ 
   height: 244px;
   border-radius: 20px;
   border-width: 1px;
@@ -760,7 +760,7 @@ font-style:Regular;
   display: block;
   position: relative;
   width: 100%;
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 9 / 16 !important;
   overflow: hidden;
   }
 
@@ -1134,7 +1134,7 @@ font-style:Regular;
   display: block;
   position: relative;
   width: 100%;
-  aspect-ratio: 9 / 16; 
+  aspect-ratio: 9 / 16 !important; 
   border-radius: 30px; 
   overflow: hidden;
   margin: 0 auto;
@@ -1260,7 +1260,7 @@ font-style:Regular;
   }
 
   .videoMobile {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 9 !important;
   }
 
   .footer-section {
@@ -1299,7 +1299,7 @@ font-style:Regular;
 
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1536px) {
+@media screen and (max-width: 1536px) and (min-width: 1280px) {
   /* Estilos específicos para MacBook Pro */
 
   .main-container, .background{
@@ -1332,7 +1332,7 @@ font-style:Regular;
   }
 
   .video-container,.videoDesktop{
-    height: 74 0px;
+    height: 0 0;
     width: 95%;
     padding: 0 auto;
     margin: 0 auto;
