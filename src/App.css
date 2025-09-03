@@ -1341,6 +1341,14 @@ font-style:Regular;
     border-radius: 30px;
   }
 
+  .calendario-section{
+    max-width: 100%; /* o 480px si querés más compacto */
+    margin: 0 auto;
+    padding-inline: 16px;
+    margin-top: 75px;
+  }
+
+
   #faq{
     margin-top: -20px;
   }
