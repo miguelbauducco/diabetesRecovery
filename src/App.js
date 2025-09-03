@@ -10,7 +10,7 @@ import FeatureCards from './components/FeatureCards';
 import Navbar from './components/Navbar';
 import FaqCarrousel from './components/FaqCarrousel';
 import Footer from './components/Footer';
-
+import ScrollBtn from './components/ScrollBtn';
 
 function App() {
   return(
@@ -26,6 +26,7 @@ function App() {
       <CalendarioSeccion/>
       <FeatureCards/>
       <FaqCarrousel/>
+      <ScrollBtn/>
       <Footer/>
       </div>
   );

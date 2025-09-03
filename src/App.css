@@ -297,6 +297,7 @@ a:hover {
   }
 
   .subtitulo1{
+  margin-left: 35px;  
   font-family: "SuisseIntlMono1";
   font-weight: 450;
   font-size: 16px;
@@ -304,6 +305,7 @@ a:hover {
   }
 
   .subtitulo2{
+  margin-left: 35px;  
   font-family: "SuisseIntlMono1";
   font-weight: 450;
   font-size: 16px;
@@ -587,6 +589,45 @@ font-style:Regular;
 .swiper-button-prev:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 190px;
+  right: 60px;
+  width: 64px;
+  height: 64px;
+  
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  font-family: "SuisseIntlMono1";
+  color:white;
+  border-radius: 100%;
+  background: linear-gradient(180deg, #24517A 0%, #4295E0 100%);
+  font-size: 15px;
+  gap: 5px;
+}
+
+.scroll-top-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
+
+.scroll-top-btn span {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
 
 
 /*FOOTER CSS*/
@@ -995,7 +1036,21 @@ font-style:Regular;
   #footer-text-2 {
     margin-top: -25px;
   }
+
+
+  .scroll-top-btn {
+    width: 52px;
+    height: 52px;
+    font-size: 12px;
+  }
+
+  .scroll-top-btn span {
+    font-size: 10px;
+  }
 }
+
+
+
 
 /* iPhone SE / móviles pequeños (≤360px) */
 @media screen and (max-width: 360px) {
@@ -1264,6 +1319,21 @@ font-style:Regular;
     margin-top:-8px;
   }
 
+  .hero-message{
+    margin-top: -40px;
+  }
+
+  .navbar{
+    margin-left: 10px;
+  }
+
+  .video-container,.videoDesktop{
+    height: 74 0px;
+    width: 95%;
+    padding: 0 auto;
+    margin: 0 auto;
+
+  }
 
   .calendario {
     max-width: 800px;
