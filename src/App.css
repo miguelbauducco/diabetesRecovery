@@ -386,7 +386,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 120px;
     width: 637px;
     height: 239px;
   }
@@ -612,7 +612,7 @@ font-style:Regular;
   transition: transform 0.3s ease, opacity 0.3s ease;
   font-family: "SuisseIntlMono1";
   color:white;
-  border-radius: 100%;
+  border-radius: 50%;
   background: linear-gradient(180deg, #24517A 0%, #4295E0 100%);
   font-size: 15px;
   gap: 5px;
@@ -620,7 +620,7 @@ font-style:Regular;
 
 .scroll-top-btn:hover {
   transform: scale(1.05);
-  opacity: 0.85;
+  opacity: 0.55;
 }
 
 .scroll-top-btn span {
@@ -1325,6 +1325,10 @@ font-style:Regular;
 
   .navbar{
     margin-left: 10px;
+  }
+
+  .nav-center{
+    margin-top: -5px;
   }
 
   .video-container,.videoDesktop{

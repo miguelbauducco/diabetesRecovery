@@ -125,7 +125,7 @@ export const FaqCarrousel = () => {
 
       <swiper-slide>
         <div className="slide-text-container">
-          <p className="slide-text1">¿Funciona aunque haya probado muchas cosas antes?</p><br />
+          <p className="slide-text1">¿Funciona aunque haya probado muchas cosas antes?</p>
           <p className="slide-text2">Sí. Este programa se basa en un enfoque integral basado en los pilares fundamentales de alimentación, entrenamiento, calidad de sueño y gestión del estrés. Lo que lo hace distinto es el trabajo con acompañamiento 1 a 1, haciendo hincapié en profundidad sobre tus hábitos y tu mentalidad.</p>
         </div>
       </swiper-slide>

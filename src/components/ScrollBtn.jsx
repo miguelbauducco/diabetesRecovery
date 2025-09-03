@@ -19,8 +19,7 @@ export default function ScrollBtn() {
   return (
     visible && (
       <button className="scroll-top-btn" onClick={scrollUp}>
-        <img src={vector} alt="scroll-btn" />
-        <span>Subir</span>
+        <img src={vector} style={{width:"30%", height:"auto"}} alt="scroll-btn" />
       </button>
     )
   );
