@@ -3,7 +3,8 @@
   font-family: 'SuisseIntlMono1';
   src: url('./Assets/fonts/suisseintl-book.otf') format('opentype');
   font-style: normal;
-}
+  }
+
 
   html,body{
     width: 100%;
@@ -93,7 +94,7 @@ a:hover {
   background-color: rgba(255, 255, 255, 1);
   border-radius:50%;
   z-index: 10;
-  margin-top: 13px;
+  margin-top: 10px;
   }
 
 
@@ -147,12 +148,12 @@ a:hover {
     flex-direction: column;
     align-items: center;
     z-index: 1;
-    max-width: 100%;
     width: 100%;
-    margin: 0 auto;
+    height: 100vh;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
     transition: all 0.3s ease-in-out;
-    margin-top: -25px;
   }
 
 
@@ -161,15 +162,20 @@ a:hover {
   position: relative;
   width: 100%;
   max-width: 1400px;
-  max-height: 85vw;
+  height: 100%;
   aspect-ratio: 16 / 9 !important;
   margin: 40px;
   border-radius: 30px;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  
+  }
 
-
+  .videoDesktop iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+  }
 
 
   .videoMobile{
@@ -1301,9 +1307,16 @@ font-style:Regular;
 @media screen and (max-width: 1536px) and (min-width: 1024px) {
   /* Estilos específicos para Mac y Notebooks */
 
+  .navbar{
+    margin-top: 10px;
+  }
+
+
   .main-container, .background{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-inline: clamp(16px, 5vw);
   }
 
   .program-features {
