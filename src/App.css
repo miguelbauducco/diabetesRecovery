@@ -1321,7 +1321,7 @@ font-style:Regular;
   .calendario-text {
     font-size: clamp(16px, 1.5vw, 18px);
     line-height: 1.6;
-    margin-top:-8px;
+    margin-top:-8px
   }
 
   .hero-message{
@@ -1330,6 +1330,7 @@ font-style:Regular;
 
   .navbar{
     margin-left: 10px;
+
   }
 
   .nav-center{
