@@ -1304,8 +1304,8 @@ font-style:Regular;
 
 }
 
-@media screen and (max-width: 1536px) and (min-width: 1280px) {
-  /* Estilos específicos para MacBook Pro */
+@media screen and (max-width: 1536px) and (min-width: 1024px) {
+  /* Estilos específicos para Mac y Notebooks */
 
   .main-container, .background{
     padding: 0;
