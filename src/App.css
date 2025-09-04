@@ -168,15 +168,7 @@ a:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.videoDesktop iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  display: block;
-}
+
 
 
   .videoMobile{
@@ -769,14 +761,7 @@ font-style:Regular;
   overflow: hidden;
   }
 
-  .videoMobile iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  }
+
 
   .hero-message{
     display: none;
