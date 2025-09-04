@@ -1323,8 +1323,8 @@ font-style:Regular;
   }
 
   .video-container,.videoDesktop{
-    height: auto;
-    width: 90%;
+    height: 695px;
+    width: 95%;
   }
 
   .calendario {
