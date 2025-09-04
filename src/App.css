@@ -421,18 +421,25 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-inline: clamp(16px, 4vw, 48px);
+    box-sizing: border-box;
     margin-top: 150px;
   }
 
   .feature-grid1{
     display: flex;
-    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 28px;
     margin-bottom: 28px;
   }
 
     .feature-grid2{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     flex-direction: row;
     gap:28px;
   }
@@ -441,14 +448,15 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 244px;
-  padding: 0 20px;
-  margin: 0;
-  width: 436px;
+  justify-content: center;
+  height: auto;
+  width: clamp(280px, 30%, 450px);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 0 50px;
   border-radius: 20px;
   border-width: 1px;
   border: 1px solid rgba(162, 211, 235, 1);
-  
   }
 
   .card-title{
