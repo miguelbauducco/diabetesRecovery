@@ -1,6 +1,6 @@
 export default function ScheduleSessionButton({ onClick }) {
   return (
-    <div id="lucas" className="btn-container">
+    <div className="btn-container">
       <button 
         onClick={(e) => {
           e.preventDefault();
