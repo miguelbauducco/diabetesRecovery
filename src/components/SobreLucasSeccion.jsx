@@ -2,7 +2,7 @@ import sobreLucasImg from "../Assets/img/lucas.png"
 
 export default function AboutLucasSection() {
   return (
-    <section className="about-lucas">
+    <section id="lucas" className="about-lucas">
         <div className="about-text">
         <h2>Sobre Lucas</h2>
         <p>

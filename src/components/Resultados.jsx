@@ -8,11 +8,11 @@ import evolucionhemoglobina2 from '../Assets/img/EVOLUCION HEMOGLOBINA GLICOSADA
 
 export default function ResultadosSection() {
   return (
-    <section className="resultados-section">
+    <section id="resultados" className="resultados-section">
     
       <h3>Resultados</h3>
       
-      <p className="subtitulo1" id="resultados">Glucemia promedio:</p>
+      <p className="subtitulo1">Glucemia promedio:</p>
 
       <div className="graficos-glucemia">
 
