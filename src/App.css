@@ -302,7 +302,7 @@ a:hover {
   }
 
   .subtitulo1{
-  margin-left: 35px;  
+  
   font-family: "SuisseIntlMono1";
   font-weight: 450;
   font-size: 16px;
@@ -310,12 +310,16 @@ a:hover {
   }
 
   .subtitulo2{
-  margin-left: 35px;  
+  
   font-family: "SuisseIntlMono1";
   font-weight: 450;
   font-size: 16px;
   color: rgba(11, 31, 54, 1);  
   margin-top: 58px;
+  }
+
+  .grafico-mobile{
+    display:none;
   }
 
   .graficos-glucemia{
@@ -671,6 +675,9 @@ font-style:Regular;
   color: rgba(255, 255, 255, 1);
   }
 
+  .grafico-glucemia2Mobile{
+    display: none;
+  }
 
 /*MOBILE*/
 
@@ -804,6 +811,32 @@ font-style:Regular;
     text-align: center;
   }
 
+  .grafico-glucemia2{
+    display:none;
+  }
+
+  .grafico-mobile{
+    display: block;
+    height: auto;
+    margin-bottom: 17px;
+    border-radius: 30px;
+    border-width: 1px;
+    box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
+    box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  .grafico-glucemia2Mobile{
+    display: block;
+    height: auto;
+    width: 50%;
+    border-radius: 30px;
+    border-width: 1px;
+    box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
+    box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(162, 211, 235, 1)
+  }
+
+
   .calendario-textcontainer{
     margin-top: -30px;
   }
@@ -812,9 +845,11 @@ font-style:Regular;
     width: 100%;
     margin: auto;
     box-sizing: border-box;
-    padding: 0 3px;
+    padding: 0 6px;
   }
 
+
+  
   .about-lucas {
     display: flex;
     flex-direction: column;
@@ -1217,7 +1252,7 @@ font-style:Regular;
   }
 
   .about-img {
-    margin-top: clamp(200px, 20vh, 280px);
+    margin-top: 250px;
   }
 
    .footer-section {
@@ -1322,10 +1357,13 @@ font-style:Regular;
     gap: 32px;
   }
 
+  .btn-text{
+    margin-left: 5px;
+  }
+
   .calendario-text {
     font-size: clamp(16px, 1.5vw, 18px);
     line-height: 1.6;
-    margin-top:-8px
   }
 
   .hero-message{

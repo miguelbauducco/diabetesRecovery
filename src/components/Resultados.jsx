@@ -3,6 +3,8 @@ import glucemiaimg2 from '../Assets/img/glucemiapromedio3.png'
 import glucemiaimg3 from '../Assets/img/glucemiapromedio4.png'
 import glucemiaimg4 from '../Assets/img/glucemiapromedio5.PNG'
 import glucemiaimg5 from '../Assets/img/glucemiapromedio6.PNG'
+import glucemiaMobile1 from "../Assets/img/glucemiaMobile1.png"
+import glucemiaMobile2 from "../Assets/img/graficomobile2.png"
 import evolucionhemoglobina1 from '../Assets/img/graficohemoglobina.png'
 import evolucionhemoglobina2 from '../Assets/img/EVOLUCION HEMOGLOBINA GLICOSADA_2.png'
 
@@ -26,6 +28,11 @@ export default function ResultadosSection() {
 
       <img src={glucemiaimg5} alt="grafico-glucemia 5" className="grafico-glucemia2"/>
 
+      <img src={glucemiaMobile1} alt="grafico-glucemia" className='grafico-mobile'/>
+
+      <img src={glucemiaMobile2} alt="grafico-glucemia" className='grafico-mobile'/>
+
+      <img src={glucemiaimg1} alt="grafico-glucemia 1" className="grafico-glucemia2Mobile"/>
 
       </div>
 
