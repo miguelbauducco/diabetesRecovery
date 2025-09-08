@@ -740,16 +740,14 @@ font-style:Regular;
   flex-direction: column;
   border: 1px solid rgba(162, 211, 235, 1);
   gap:20px;
-  width: 100%;
+  width: 90%;
   height: 130px;
   border-radius: 30px;
   justify-content: center;
   align-content: center;
   text-align: center;
-  top: 0;
-  left: 0;
   transform: translateX(0);
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 
