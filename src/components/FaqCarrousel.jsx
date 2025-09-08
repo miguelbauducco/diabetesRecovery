@@ -36,7 +36,6 @@ export const FaqCarrousel = () => {
       autoplay-delay="5000"
       direction="horizontal"
       loop="true"
-      navigation="true"
     >
       
       <swiper-slide>
