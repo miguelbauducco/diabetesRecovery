@@ -185,6 +185,7 @@ a:hover {
   .hero-section{
     margin:0 0 0 0;
     padding: 0 0 0 0;
+    margin-top: -50px;
   }
 
   .hero-message{
@@ -521,15 +522,15 @@ h5{
   margin-top: 10px;
   display: flex;
   justify-content: center;
-}
+  }
 
-.ellipse{
-margin-top: 152px;
-width:9px;
-height: 9px;
-background: rgba(36, 81, 122, 1);
-border-radius: 100%;
-}
+  .ellipse{
+  margin-top: 152px;
+  width:9px;
+  height: 9px;
+  background: rgba(36, 81, 122, 1);
+  border-radius: 100%;
+  }
 
 swiper-container {
   width: 100%;
@@ -686,6 +687,10 @@ font-style:Regular;
   overflow: hidden;
 }
 
+.scroll-top-btn-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
 
 
@@ -697,6 +702,7 @@ font-style:Regular;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
     box-sizing: border-box;
+    overflow-y: auto;
   }
 
   .main-container {
@@ -1070,14 +1076,30 @@ font-style:Regular;
 
 
   .scroll-top-btn {
-    width: 52px;
-    height: 52px;
-    font-size: 12px;
+    display: none;
   }
 
-  .scroll-top-btn span {
-    font-size: 10px;
+  .scroll-top-btn-mobile {
+    display: flex;
+    position: fixed;
+    background: #24517a;
+    border: none;
+    border-radius: 50%;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    right: 30px;
   }
+
+  .scroll-top-btn-mobile img {
+    width: 20px;
+    height: auto;
+  }
+
+
 }
 
 

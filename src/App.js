@@ -12,6 +12,7 @@ import FaqCarrousel from './components/FaqCarrousel';
 import Footer from './components/Footer';
 import ScrollBtn from './components/ScrollBtn';
 
+
 function App() {
   return(
       <div className="main-container">
