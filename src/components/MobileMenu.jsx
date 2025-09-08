@@ -6,6 +6,8 @@ function MobileMenu({ isOpen, onClose }) {
 
   return (
     <div className="mobile-menu">
+      <button className="close-btn" onClick={onClose}>✕</button>
+
       <a href="#lucas" onClick={onClose}>LUCAS</a>
       <a href="#resultados" onClick={onClose}>RESULTADOS</a>
       <a href="#faq" onClick={onClose}>PREGUNTAS FRECUENTES</a>

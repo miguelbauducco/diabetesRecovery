@@ -688,8 +688,6 @@ font-style:Regular;
 }
 
 
-/*MOBILE*/
-
 .media-container{
   max-width: unset !important;
   overflow: hidden;
@@ -704,6 +702,8 @@ font-style:Regular;
   display: none;
 }
 
+/*MOBILE*/
+
 @media screen and (max-width: 768px) {
 
   .mobile-only{
@@ -715,8 +715,8 @@ font-style:Regular;
   width: 26px;
   font-size: 23px;
   border-width: 2px;
-  top: 53px;
-  left: 15px;
+  top: 20px;
+  left: -20px;
   color:rgba(36, 81, 122, 1);
   transform: translateY(-50%);
   max-width: 300px;
@@ -725,7 +725,7 @@ font-style:Regular;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  position: fixed;
+  position: absolute;
 }
 
 .mobile-menu{
@@ -745,10 +745,26 @@ font-style:Regular;
   border-radius: 30px;
   justify-content: center;
   align-content: center;
-  text-align: center;
+  text-align: start;
+  padding-inline:30px;
   transform: translateX(0);
-  margin-top: 70px;
+  margin-top: 58px;
+  position: absolute;
 }
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10000;
+  color: rgba(11, 31, 54, 1);
+  font-size: 15px;
+}
+
 
 
   html, body {
@@ -1247,13 +1263,13 @@ font-style:Regular;
   }
 
   .videoMobile {
-  display: block;
-  position: relative;
-  width: 100%;
-  aspect-ratio: 9 / 16 !important; 
-  border-radius: 30px; 
-  overflow: hidden;
-  margin: 0 auto;
+   display: block;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 9 / 16 !important; 
+    border-radius: 30px; 
+    overflow: hidden;
+    margin: 0 auto;
   }
 
 .videoMobile iframe {
@@ -1288,6 +1304,7 @@ font-style:Regular;
 
   .about-img {
     border-radius: 16px;
+    margin-top: 200px;
   }
 
 

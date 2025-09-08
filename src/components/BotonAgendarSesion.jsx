@@ -8,7 +8,7 @@ export default function ScheduleSessionButton({ onClick }) {
           document.getElementById("calendly")?.scrollIntoView({ behavior: "smooth" });
         }}
         className="btn-agendar"
-      >
+        >
         Agendá una sesión
       </button>
     </div>
