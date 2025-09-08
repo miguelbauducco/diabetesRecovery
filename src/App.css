@@ -1242,6 +1242,10 @@ font-style:Regular;
     margin-top: 115px;
   }
 
+  .about-img{
+    margin-top: 270px;
+  }
+
   .main-container{
     padding: 0 16px;
     width: 100%;
@@ -1303,7 +1307,6 @@ font-style:Regular;
 
   .about-img {
     border-radius: 16px;
-    margin-top: 270px;
   }
 
 
