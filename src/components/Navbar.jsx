@@ -1,9 +1,14 @@
 import logo from '../Assets/img/logo.png';
+import { useState } from "react";
 import React from "react";
 import PropTypes from "prop-types";
+import MobileMenu from "./MobileMenu";
+
 
 
 function Navbar({ onClick }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
       <div className="nav-left">
@@ -26,10 +31,17 @@ function Navbar({ onClick }) {
           className="btn-ayuda"
         ><p className='btn-text'>Necesito ayuda</p>
         </button>
+          
+        <button className="hamburger-mobile-only" onClick={() => setMenuOpen(!menuOpen)}>
+          ☰
+        </button>
       </div>
+
+      <MobileMenu isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
     </nav>
   );
 }
+
 
 Navbar.propTypes = {
   onClick: PropTypes.func,
