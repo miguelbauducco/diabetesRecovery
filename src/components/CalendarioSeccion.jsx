@@ -1,6 +1,6 @@
 import { InlineWidget } from "react-calendly";
 
-export default function CalendarioSecion() {
+export default function CalendarioSection() {
   return (
     <section className="calendario-section">
 
