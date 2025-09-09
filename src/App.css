@@ -1409,11 +1409,11 @@ font-style:Regular;
 
 
   .nav-left{
-    margin-right: 360px;
+    margin-right: 395px;
   }
 
   .nav-right{
-    margin-left: 5px;
+    margin-left: 35px;
     align-content: center;
   }
 
@@ -1426,13 +1426,13 @@ font-style:Regular;
 
 
   .btn-ayuda {
-    padding: 14px 32px;
+    padding: 16px 36px;
     font-size: 18px;
   }
 
 }
 
-@media screen and (max-width: 1536px) and (min-width: 1024px) {
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
   /* Estilos específicos para Mac y Notebooks */
 
   .navbar{
