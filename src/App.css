@@ -67,8 +67,8 @@ a:hover {
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin-left: -56px;
-  margin-top: 15px;
+  margin-left: -65px;
+  margin-top: 20px;
   gap:90px;
   justify-content: space-between;
   }
@@ -111,7 +111,7 @@ a:hover {
     flex-direction: column;
     width: 187px;
     height: 44px;
-    margin-top: 13px;
+    margin-top: 10px;
     border-radius: 100%;
   }
 
