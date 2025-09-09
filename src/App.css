@@ -1432,7 +1432,7 @@ font-style:Regular;
 
 }
 
-@media screen and (max-width: 1280px) and (min-width: 1024px) {
+@media screen and (max-width: 1536px) and (min-width: 1024px) {
   /* Estilos específicos para Mac y Notebooks */
 
   .navbar{
