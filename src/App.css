@@ -1382,7 +1382,7 @@ font-style:Regular;
   /* Estilos específicos para tablets */
 
   .main-container, .background{
-    padding: 0 18px;
+    padding: 0 ;
   }
 
   .text1, .text2 {
@@ -1405,95 +1405,52 @@ font-style:Regular;
 
 }
 
-@media screen and (max-width: 1440px) {
-
-
-  .nav-left{
-    margin-right: 395px;
-  }
-
-  .nav-right{
-    margin-left: 35px;
-    align-content: center;
-  }
-
-  .program-features, .feature-grid1, .feature-grid2{
-    padding: 0 18px;
-    gap: 24px;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-
-  .btn-ayuda {
-    padding: 16px 36px;
-    font-size: 18px;
-  }
-
-}
-
-@media screen and (max-width: 1536px) and (min-width: 1024px) {
-  /* Estilos específicos para Mac y Notebooks */
-
-  .navbar{
+/* Laptops grandes y desktop hasta 1536px */
+@media screen and (max-width: 1536px) {
+  .navbar {
     margin-top: 10px;
   }
 
+  .nav-left{
+    margin-right: 290px;
+  }
 
-  .main-container, .background{
-    padding: 0;
-    margin: 0 auto;
+
+
+  .main-container, .background {
+    margin: 0 ;
     box-sizing: border-box;
-    padding-inline: clamp(16px, 5vw);
+  }
+}
+
+/* Laptops medianas (hasta 1440px) */
+@media screen and (max-width: 1440px) {
+  .program-features, .feature-grid1, .feature-grid2 {
+    padding: 0;
+    gap: 24px;
+    max-width: 100%;
   }
 
-  .program-features {
-    margin: 0 auto;
-    padding: 0 32px;
-    gap: 32px;
+  .btn-ayuda {
+    padding: 16px ;
+    font-size: 18px;
   }
+}
 
-  .btn-text{
-    margin-left: 5px;
-  }
-
-  .calendario-text {
-    font-size: clamp(16px, 1.5vw, 18px);
-    line-height: 1.6;
-  }
-
-  .hero-message{
+/* Laptops más chicas / MacBook 13" */
+@media screen and (max-width: 1280px) {
+  .hero-message {
     margin-top: -40px;
-  }
-
-  .navbar{
-    margin-left: 10px;
-
-  }
-
-  .nav-center{
-    margin-top: -5px;
-  }
-
-  .video-container,.videoDesktop{
-    width: 95%;
   }
 
   .calendario {
     max-width: 800px;
-    margin: 48px auto;
+    margin: 48px;
     border-radius: 30px;
   }
 
-  .calendario-section{
-    max-width: 100%; /* o 480px si querés más compacto */
-    margin: 0 auto;
-    padding-inline: 16px;
+  .calendario-section {
+    margin: 0 ;
     margin-top: 75px;
-  }
-
-
-  #faq{
-    margin-top: -20px;
   }
 }
