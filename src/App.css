@@ -526,7 +526,7 @@ h5{
   }
 
   .ellipse{
-  margin-top: 152px;
+
   width:9px;
   height: 9px;
   background: rgba(36, 81, 122, 1);
@@ -1414,8 +1414,6 @@ font-style:Regular;
   .nav-left{
     margin-right: 290px;
   }
-
-
 
   .main-container, .background {
     margin: 0 ;
