@@ -676,6 +676,10 @@ font-style:Regular;
   color: rgba(255, 255, 255, 1);
   }
 
+  #footer-text-2{
+    justify-items: center;
+  }
+
   .grafico-glucemia2Mobile{
     display: none;
   }
@@ -1431,7 +1435,7 @@ font-style:Regular;
   }
 
   .btn-text{
-    margin-left: 22px;
+    margin: auto;
   }
 }
 
