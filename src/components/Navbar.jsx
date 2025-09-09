@@ -26,7 +26,7 @@ function Navbar({ onClick }) {
           onClick={(e) => {
             e.preventDefault();
             onClick?.();
-            document.getElementById("calendly")?.scrollIntoView({ behavior: "smooth" });
+            document.getElementById("calendly")?.scrollIntoView({ behavior: "smooth"});
           }}
           className="btn-ayuda"
         ><p className='btn-text'>Necesito ayuda</p>

@@ -1,10 +1,9 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, containerRef} from "react";
 import vector from "../Assets/img/vector.png";
 
 export default function ScrollBtn() {
   const [visible, setVisible] = useState(false);
-  const containerRef = useRef(null);
-
+  
 
   useEffect(() => {
     const toggleVisibility = () => {
@@ -15,6 +14,10 @@ export default function ScrollBtn() {
   }, []);
 
   const scrollUp = () => {
+    document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+    const scrollUpMobile = () => {
     document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -30,8 +33,11 @@ export default function ScrollBtn() {
         </button>
       )}
 
-      <button className="scroll-top-btn-mobile" onClick={scrollUp}>
-        <img src={vector} alt="scroll-btn" />
+     
+      <button className="scroll-top-btn-mobile" onClick={scrollUpMobile}>
+        <img 
+        src={vector} 
+        alt="scroll-btn"/>
       </button>
     </>
   );
