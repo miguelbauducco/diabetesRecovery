@@ -240,7 +240,6 @@ a:hover {
   }
 
   .about-lucas{
-    margin-top: 98px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -289,7 +288,7 @@ a:hover {
     display:flex;
     flex-direction: column;
     align-content: center;
-    margin-top: 112px;
+
   }
 
   h3{
@@ -388,17 +387,19 @@ a:hover {
     display: flex;
     display: row;
     justify-content: space-between;
-    margin-top: 100px;
     gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 100px;
   }
 
   .calendario-textcontainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 90px;
     width: 637px;
     height: 239px;
+
   }
 
   .calendario-text{
@@ -422,7 +423,6 @@ a:hover {
     box-sizing: border-box;
     box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
     box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
-    margin-top: 45px;
     }
 
 
@@ -444,7 +444,6 @@ a:hover {
     overflow-x: hidden;
     padding-inline: clamp(16px, 4vw, 48px);
     box-sizing: border-box;
-    margin-top: 150px;
   }
 
   .feature-grid1{
@@ -914,9 +913,6 @@ font-style:Regular;
   }
 
 
-  .calendario-textcontainer{
-    margin-top: -30px;
-  }
 
    .about-text, .resultados-section, .grafico-glucemia-mobile, .calendario-section{
     width: 100%;
@@ -968,14 +964,14 @@ font-style:Regular;
   }
 
   .about-img{
-    width: 100%;
+    width: 91%;
     height: auto;
     object-fit: cover;
     border-radius: 20px;
+    margin-top: 305px;
   }
 
   .resultados-section {
-    margin-top: 45px;
     display: flex;
     flex-direction: column;
   }
@@ -1035,6 +1031,7 @@ font-style:Regular;
     align-items: center;
     width: 100%;
     height: auto;
+    margin-top: 40px;
   }
 
   .calendario-text {
@@ -1303,7 +1300,6 @@ font-style:Regular;
 
   .about-img {
     border-radius: 16px;
-    margin-top: 355px;
   }
 
 
