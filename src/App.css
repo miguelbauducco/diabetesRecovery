@@ -526,7 +526,7 @@ h5{
   }
 
   .ellipse{
-
+  margin-top: 65px;
   width:9px;
   height: 9px;
   background: rgba(36, 81, 122, 1);
@@ -766,8 +766,6 @@ font-style:Regular;
   font-size: 15px;
 }
 
-
-
   html, body {
     margin: 0;
     width: 100%;
@@ -784,14 +782,15 @@ font-style:Regular;
     align-items: center;
     max-width: 100%;
     width: 100%;
-    padding: 0;
+    margin: auto;
     box-sizing: border-box;
   }
 
   .background {
     background: linear-gradient(180deg, #FFFFFF 1.11%, #A2D3EB 49.18%, #FFFFFF 68.94%);
     max-width: 100%;
-    padding: 0;
+    padding: 0 16px;
+    margin: 0 auto;
     width: 100%;
     align-content: center;
   }
@@ -918,14 +917,13 @@ font-style:Regular;
   .calendario-textcontainer{
     margin-top: -30px;
   }
-  
 
-  .about-lucas, .about-text, .resultados-section, .grafico-glucemia-mobile, .calendario-section {
+   .about-text, .resultados-section, .grafico-glucemia-mobile, .calendario-section{
     width: 100%;
-    margin: auto;
     box-sizing: border-box;
-    padding: 0 6px;
+    padding: 0 18px;
   }
+
 
   .calendario{
     width: 100%;
@@ -1027,7 +1025,6 @@ font-style:Regular;
     }
 
   .calendario-section {
-    margin-top: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1054,8 +1051,7 @@ font-style:Regular;
     flex-direction: column;
     justify-content: center;
     height: auto;
-    width: 100%;
-    margin-top: 88px;
+    width: 90%;
   }
 
   h4 {
@@ -1191,7 +1187,7 @@ font-style:Regular;
   }
 
   .main-container,.background {
-    padding: 0 16px ;
+    padding: 0 16px;
     max-width: 100%;
     gap: 10px;
   }
@@ -1206,7 +1202,7 @@ font-style:Regular;
   }
 
   .feature-card {
-    padding: 16px;
+    padding: 0 16px;
   }
 
   .about-text, .calendario-text {
@@ -1245,8 +1241,10 @@ font-style:Regular;
   }
   
   .main-container{
-    padding: 0 16px;
+    padding: 0;
+    margin: 0 auto;
     width: 100%;
+    max-width: 100%;
     position: relative;
     padding-bottom: 310px;
   }
@@ -1298,7 +1296,7 @@ font-style:Regular;
     font-size: 32px;
   }
 
-  .feature-card {
+   .feature-card {
     width: 100%;
     padding: 24px;
   }
