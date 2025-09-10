@@ -139,6 +139,7 @@ a:hover {
     justify-content: center;
     text-align: center;
     font-weight: 500;
+    margin: auto;
     }
 
 
@@ -973,6 +974,7 @@ font-style:Regular;
     text-align: center;
     font-weight: 500;
     text-align: center;
+    margin: auto;
   }
 
   .about-img{
@@ -1387,7 +1389,32 @@ font-style:Regular;
   /* Estilos específicos para tablets */
 
   .main-container, .background{
-    padding: 0 ;
+    padding: 0;
+  }
+
+  .nav-center{
+    margin-top: 230px;
+    padding-right: 23px;
+  }
+
+  .nav-right{
+    margin-top: 112px;
+  }
+
+  h5{
+    display: none;
+  }
+  swiper-container{
+    display: none;
+  }
+
+  .about-lucas, .resultados-section{
+    padding: 0 15px;
+  }
+
+
+  .about-img{
+    margin-top: 90px;
   }
 
   .text1, .text2 {
@@ -1395,13 +1422,16 @@ font-style:Regular;
   }
 
   .video-container{
-    margin-top: 120px;
+    margin-top: 40px;
     width: 100%;
-    border-radius: 30%;
   }
 
   .videoMobile {
-    aspect-ratio: 16 / 9 !important;
+    display: none;
+  }
+
+  .videoDesktop{
+    display: block;
   }
 
   .footer-section {
@@ -1439,9 +1469,6 @@ font-style:Regular;
     font-size: 18px;
   }
 
-  .btn-text{
-    margin: auto;
-  }
 }
 
 /* Laptops más chicas / MacBook 13" */
