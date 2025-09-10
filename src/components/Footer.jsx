@@ -23,8 +23,13 @@ export default function Footer() {
 
           <p className="footer-text">
             Copyright © 2025 Diabetes Recovery<br />
-            Powered by Com.ar<br />
+            <a href="https://www.instagram.com/juanma.com.ar/" target="_blank" rel="noopener noreferrer" style={{color: "inherit",fontWeight: "normal",transition: "none",border: "none"}}>
+            Powered by Com.ar
+            </a>
+            <br />
+            <a href="https://www.linkedin.com/in/miguel-b-aa3954229/" target="_blank" rel="noopener noreferrer" style={{color: "inherit",fontWeight: "normal",transition: "none",border: "none"}}>
             Website developed by MBauducco
+            </a>
           </p>
         </div>
       </div>
