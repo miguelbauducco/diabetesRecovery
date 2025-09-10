@@ -35,7 +35,7 @@ export const FaqCarrousel = () => {
       initial-slide="1"
       autoplay="true"
       grab-cursor="true"
-      autoplay-delay="5000"
+      autoplay-delay="10000"
       direction="horizontal"
       loop="true"
       navigation="true"

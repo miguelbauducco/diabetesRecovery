@@ -12,7 +12,7 @@ export default function AboutLucasSection() {
 
           La Diabetes limitaba su vida, no sólo a nivel personal, también laboral e incluso deportiva, hasta que un día... decidió tomar el control. Todo ese aprendizaje y despertar conllevó un largo camino de autoconocimiento, formación especializada, sólida, pruebas, errores y gran superación. <br /><br />
 
-          Hoy, luego de un profundo trabajo físico, mental y emocional, logró estabilizar su glucemia sin sufrir graves fluctuaciones, reducir su necesidad de insulina, logrando resultados clínicos fuera del rango diabético (HbA1c 5.4% - 36 mmol/mol) <br /><br />
+          Hoy, luego de un profundo trabajo físico, mental y emocional, logró estabilizar su glucemia sin sufrir graves fluctuaciones, reducir su necesidad de insulina, logrando resultados clínicos fuera del rango diabético (HbA1c 5.4% - 36 mmol/mol). <br /><br />
 
           Este resultado no es casualidad. Es el fruto de un método propio, basado en su experiencia, avalado por evidencia científica y acompañado por un equipo profesional especializado en Nutrición, Ejercicio Físico y Salud. <br /><br />
 

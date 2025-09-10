@@ -21,7 +21,7 @@ export default function FeatureCards({onClick}) {
             <article className="feature-card">
             <img src={asesoramiento} className="logo-card" alt="Lucas" />
             <p className="card-title">Asesoramiento 1 a 1 Nutricionista</p>
-            <p className="card-text">Plan de alimentación adaptado a tus necesidades, con<span className="card-blue"> seguimiento profesional de un nutricionista </span> y ajustes estratégicos en 3 etapas clave del programa
+            <p className="card-text">Plan de alimentación adaptado a tus necesidades, con<span className="card-blue"> seguimiento profesional de un nutricionista </span> y ajustes estratégicos en 3 etapas clave del programa.
             </p>
             </article>
 
