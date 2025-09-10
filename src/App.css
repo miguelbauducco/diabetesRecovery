@@ -290,6 +290,10 @@ a:hover {
     align-content: center;
   }
 
+  #ocultoDesktop{
+    display: none;
+  }
+
   h3{
     display: flex;
     justify-content: center;
@@ -317,15 +321,12 @@ a:hover {
   margin-top: 58px;
   }
 
-  .grafico-mobile{
-    display:none;
-  }
-
   .graficos-glucemia{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    gap: 14px;
   }
 
   .grafico-glucemia1{
@@ -333,11 +334,6 @@ a:hover {
     height: auto;
     border-width: 1px;
   }
-
-  .grafico-glucemia-mobile{
-    display: none;
-  }
-
 
   .grafico-glucemia2{
     width: 250px;
@@ -356,22 +352,41 @@ a:hover {
     flex-direction: row;
     align-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 15px;
+  }
+  
+  .graficos-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .imagenes-evolucion2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
   }
 
   .grafico-1{
-    width: 493px;
-    height: 466px;
+    width: 237px;
+    height: 486px;
+    border-radius: 30px;
     border-radius: 30px;
     border-width: 1px;
+    border: 1px solid rgba(162, 211, 235, 1);
+    box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
+    box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
   }
 
   .grafico-2{
     display: block;
     width: 785px;
-    height: 231px;
+    height: 108px;
     border-radius: 25px;
     border-width: 1px;
+    border: 1px solid rgba(162, 211, 235, 1);
+    box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
+    box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
   }
 
   .subtitulo{
@@ -897,9 +912,25 @@ font-style:Regular;
     text-align: center;
   }
 
-  .grafico-glucemia2{
-    display:none;
+  #oculto{
+    display: none;
   }
+
+  #ocultoDesktop{
+    display: block;
+    width: 186px;
+    height: 384px;
+    border: 1px solid rgba(162, 211, 235, 1);
+    box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
+    box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+  }
+
+  .glucosa-rango{
+    display: flex;
+    justify-content: center;
+  }
+
 
   .grafico-mobile{
     display: block;
@@ -911,18 +942,11 @@ font-style:Regular;
     box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
   }
 
-  .grafico-glucemia2Mobile{
-    display: block;
-    height: auto;
-    width: 50%;
-    border-radius: 30px;
-    border-width: 1px;
-    box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
-    box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(162, 211, 235, 1)
+  .graficos-glucemia{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:1;
   }
-
-
 
    .about-text, .resultados-section, .grafico-glucemia-mobile, .calendario-section{
     width: 100%;
@@ -990,10 +1014,12 @@ font-style:Regular;
   }
 
   .graficos-glucemia {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-self: center;
+    padding: 0 6px;
+    gap:5px;
   }
 
   .grafico-glucemia1 {
@@ -1011,27 +1037,34 @@ font-style:Regular;
     height: 384px;
   }
 
+
   .imagenes-evolucion {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    justify-content: center;
     height: auto;
-    border-radius: 20px;
-    border-width: 1px;
+    padding: 0 3px;
   }
+
+  .graficos-container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  } 
 
   .grafico-1 {
-    width: 100%;
+    width: 50%;
     height: auto;
+    object-fit: cover;
   }
 
-    .grafico-2 {
+  .grafico-2{
     width: 100%;
-    height: 150px;
-    display: block;
-    margin-top: -80px;
-    border-width: 1px;
-    }
+    height: auto;
+    object-fit: cover;
+  }
+
 
   .calendario-section {
     display: flex;
