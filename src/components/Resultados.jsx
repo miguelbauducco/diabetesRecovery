@@ -22,9 +22,9 @@ export default function ResultadosSection() {
       
       <img src={glucemiaimg2} alt="grafico-glucemia 2" className="grafico-glucemia2" />
 
-      <img src={glucemiaimg3} alt="grafico-glucemia 3" className="grafico-glucemia2" style={{border:"none"}}/>
+      <img src={glucemiaimg3} alt="grafico-glucemia 3" className="grafico-glucemia2" styles={{border:"none"}}/>
 
-      <img src={glucemiaimg4} alt="grafico-glucemia 4" className="grafico-glucemia2"/>
+      <img src={glucemiaimg4} alt="grafico-glucemia 4" className="grafico-glucemia2"  styles={{border: "1px solid rgba(162, 211, 235, 1)"}}/>
 
       <img src={glucemiaimg5} alt="grafico-glucemia 5" className="grafico-glucemia2"/>
 
