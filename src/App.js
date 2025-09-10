@@ -1,3 +1,5 @@
+import 'swiper/css';
+import 'swiper/css/navigation';
 import './App.css';
 import '@fontsource/poppins'
 import HeroMessage from './components/HeroMensaje';

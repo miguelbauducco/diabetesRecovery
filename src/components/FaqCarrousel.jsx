@@ -1,3 +1,5 @@
+import 'swiper/css';
+import 'swiper/css/navigation';
 import { useRef, useEffect } from "react";
 import { register } from "swiper/element/bundle";
 
@@ -36,6 +38,11 @@ export const FaqCarrousel = () => {
       autoplay-delay="5000"
       direction="horizontal"
       loop="true"
+      navigation="true"
+      style={{
+    "--swiper-navigation-size": "12px",
+    "--swiper-theme-color": "background: rgba(11, 31, 54, 1)"
+    }}
     >
       
       <swiper-slide>

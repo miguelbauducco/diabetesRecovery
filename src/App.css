@@ -305,7 +305,7 @@ a:hover {
   }
 
   .subtitulo1{
-  
+  padding-left: 40px;
   font-family: "SuisseIntlMono1";
   font-weight: 450;
   font-size: 16px;
@@ -313,7 +313,7 @@ a:hover {
   }
 
   .subtitulo2{
-  
+  padding-left: 28px;
   font-family: "SuisseIntlMono1";
   font-weight: 450;
   font-size: 16px;
@@ -607,24 +607,8 @@ justify-content: center;
 font-style:Regular;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  color: white; 
-  background-color: rgba(0, 0, 0, 0.5); 
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s ease;
-  z-index: 10;
-}
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
+
 
 .scroll-top-btn {
   position: fixed;
@@ -647,7 +631,6 @@ font-style:Regular;
   transform: scale(1.05);
   opacity: 0.55;
 }
-
 
 
 
