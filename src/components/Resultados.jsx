@@ -39,7 +39,7 @@ export default function ResultadosSection() {
         alt="grafico-glucemia 1" />
       </div>
 
-      <p className="subtitulo2"> Evolución de la Hemoglobina Glicosilada:</p>
+      <p className="subtitulo2">Hemoglobina Glicosilada (HbA1c):</p>
 
       <div className='graficos-container'>
 
