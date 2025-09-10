@@ -1249,6 +1249,7 @@ font-style:Regular;
 
   .nav-right{
     margin-top: 115px;
+    padding-left: 10px;
   }
   
   .main-container{
@@ -1314,7 +1315,7 @@ font-style:Regular;
 
   .about-img {
     border-radius: 16px;
-    margin-top:;
+    margin-top: 350px;
   }
 
 
