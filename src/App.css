@@ -326,7 +326,9 @@ a:hover {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    padding: 0 16px;
     gap: 14px;
+    box-sizing: border-box;
   }
 
   .grafico-glucemia1{
@@ -943,15 +945,20 @@ font-style:Regular;
   }
 
   .graficos-glucemia{
+    align-items: center;
+    align-self: center;
+    padding: 0 2px;
+    gap:12px;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:1;
+    box-sizing: border-box;
   }
+
 
    .about-text, .resultados-section, .grafico-glucemia-mobile, .calendario-section{
     width: 100%;
     box-sizing: border-box;
-    padding: 0 18px;
+    padding: 0 16px;
   }
 
 
@@ -1008,33 +1015,12 @@ font-style:Regular;
     margin-top: 305px;
   }
 
-  .resultados-section {
-    display: flex;
-    flex-direction: column;
-  }
 
-  .graficos-glucemia {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    padding: 0 6px;
-    gap:5px;
-  }
 
-  .grafico-glucemia1 {
-    display: none;
-  }
-
-  .grafico-glucemia-mobile {
-    display: block;
-    height: auto;
-    border-width: 1px;
-  }
-
-  .grafico-glucemia2 {
-    width: 186px;
+  .grafico-glucemia2{
+    width: 100%;
     height: 384px;
+    gap: 3px;
   }
 
 
@@ -1043,7 +1029,7 @@ font-style:Regular;
     flex-direction: row;
     justify-content: center;
     height: auto;
-    padding: 0 3px;
+    padding: 0 16px;
   }
 
   .graficos-container{ 
@@ -1328,13 +1314,8 @@ font-style:Regular;
     padding: 0;
     text-align: center;
     gap: 8px;
-    
   }
 
-  .grafico-mobile{
-    width: 100%;
-    height: auto;
-  }
 
   .text1, .text2 {
     font-size: 32px;
