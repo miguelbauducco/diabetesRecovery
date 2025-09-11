@@ -12,7 +12,7 @@ function Video() {
 
       <iframe className="videoMobile" style={{width:"92%", height:"auto", border:"none", margin:"16px"}} 
         src="https://www.youtube.com/embed/A734EbzBPlc" 
-        title="23 años viviendo con Diabetes: la guía completa que diseñé para ayudarte a vivir mejor" 
+        title="23 años viviendo con Diabetes:" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerPolicy="strict-origin-when-cross-origin">
       </iframe>
