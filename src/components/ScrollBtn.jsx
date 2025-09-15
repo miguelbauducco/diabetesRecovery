@@ -4,7 +4,6 @@ import vector from "../Assets/img/vector.png";
 export default function ScrollBtn() {
   const [visible, setVisible] = useState(false);
   
-
   useEffect(() => {
     const toggleVisibility = () => {
       setVisible(window.scrollY > 300);
