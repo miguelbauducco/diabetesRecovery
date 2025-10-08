@@ -122,7 +122,7 @@ a:hover {
     text-align: center;
     width: 100%;
     height: 40px;
-    margin-left: 50px;
+    margin-left: 68px;
     border-radius: 100px;
     background: none;
     border: none;
@@ -835,7 +835,7 @@ swiper-slide.swiper-slide-active {
 
   .nav-right {
     display: flex;
-    margin-right: 108px;
+    margin-right: 143px;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -1079,6 +1079,7 @@ swiper-slide.swiper-slide-active {
   h4 {
     font-size: 23px;
     text-align: center;
+    margin-bottom: 0px;
   }
 
   .feature-grid1, .feature-grid2 {
