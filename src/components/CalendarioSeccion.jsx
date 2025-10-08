@@ -2,7 +2,7 @@ import { InlineWidget } from "react-calendly";
 
 export default function CalendarioSection() {
   return (
-    <section id="calendly" className="calendario-section">
+    <section className="calendario-section">
 
       <div className="calendario-textcontainer">
         <p className="calendario-text">
@@ -17,7 +17,7 @@ export default function CalendarioSection() {
         </p>
       </div>
 
-      <div className="calendario">
+      <div id="calendly" className="calendario">
         <InlineWidget url="https://calendly.com/diabetes-recovery/meeting-30-min?hide_event_type_details=1&hide_gdpr_banner=1" styles={{height: "100%", width:"100%", borderRadius:"30px", overflow:"hidden"}} pageSettings={{hideLandingPageDetails: "true", hideEventTypeDetails:"false"}}/>
       </div>
 
