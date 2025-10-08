@@ -19,10 +19,10 @@ export default function Footer() {
 
           <p className="footer-text">
             Copyright © 2025 Diabetes Recovery<br />
-            Powered by<a href="https://www.instagram.com/juanma.com.ar/" target="_blank" rel="noopener noreferrer" style={{color: "inherit",transition: "none",border: "none", fontSize:"12px"}}> Com.ar
+            Powered by<a href="https://www.instagram.com/juanma.com.ar/" target="_blank" rel="noopener noreferrer" style={{color: "inherit",transition: "none",border: "none", fontSize:"10px"}}> Com.ar
             </a>
             <br />
-            Website developed by <a href="https://www.linkedin.com/in/miguel-b-aa3954229/" target="_blank" rel="noopener noreferrer" style={{color: "inherit",transition: "none",border: "none", fontSize:"12px"}}>MBauducco
+            Website developed by <a href="https://www.linkedin.com/in/miguel-b-aa3954229/" target="_blank" rel="noopener noreferrer" style={{color: "inherit",transition: "none",border: "none", fontSize:"10px"}}>MBauducco
             </a>
           </p>
         </div>
