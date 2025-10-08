@@ -312,7 +312,7 @@ a:hover {
   }
 
   .subtitulo2{
-  padding-left: 12px;
+  padding-left: 18px;
   font-family: "SuisseIntlMono1";
   font-weight: 450;
   font-size: 16px;
@@ -941,6 +941,10 @@ swiper-slide.swiper-slide-active {
     box-shadow: 4px 7px 10.1px 0px rgba(0, 0, 0, 0.05);
   }
 
+   .subtitulo1{
+    padding-left: 5px;
+   }
+
   .graficos-glucemia{
     align-items: center;
     align-self: center;
@@ -1386,6 +1390,10 @@ swiper-slide.swiper-slide-active {
   .hero-message-mobile {
     gap: 24px;
   }
+
+     .subtitulo1{
+    padding-left: 18px;
+   }
 
   .text1,
   .text2 {
