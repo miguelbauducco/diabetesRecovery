@@ -2,6 +2,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import './App.css';
 import '@fontsource/poppins'
+
+//react router
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PoliticaPrivacidad from "./routes/PoliticaPrivacidad";
+import TerminosCondiciones from "./routes/TerminosCondiciones";
+import ProteccionDatos from "./routes/ProteccionDatos";
+
+
+//componentes de la landing
 import HeroMessage from './components/HeroMensaje';
 import Video from './components/Video';
 import BotonAgendarSesion from './components/BotonAgendarSesion';
@@ -15,7 +24,9 @@ import Footer from './components/Footer';
 import ScrollBtn from './components/ScrollBtn';
 
 
-function App() {
+
+
+function Landing() {
   return(
       <div className="main-container">
       <div className="background">
@@ -35,4 +46,16 @@ function App() {
   );
   
 }
-export default App;
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/privacidad" element={<PoliticaPrivacidad />} />
+        <Route path="/terminos" element={<TerminosCondiciones />} />
+        <Route path="/proteccion" element={<ProteccionDatos />} />
+      </Routes>
+    </Router>
+  );
+}
+

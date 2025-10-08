@@ -1,0 +1,53 @@
+
+.legal-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* o center si querés centrar verticalmente */
+  min-height: 100vh;
+}
+
+.oculto {
+  display: none;
+}
+
+.legal-section {
+  width: 100%;
+  max-width: 700px;
+  padding: 40px 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  margin-top: 29px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.titles{
+  color: rgba(36, 81, 122, 1);
+  font-family: 'SuisseIntlMono1';
+  font-weight: 450;
+  font-size: 22px;
+  text-align: center;
+}
+
+.subtitles-legal{
+font-family: 'SuisseIntlMono1';
+font-weight: 450;
+font-size: 18px;
+line-height: 127%;
+letter-spacing: 0%;
+color: rgba(11, 31, 54, 1);
+}
+
+.text-legal{
+font-family: 'Public Sans';
+font-weight: 400;
+font-size: 15px;
+line-height: 127%;
+letter-spacing: 0%;
+color: rgba(11, 31, 54, 1);
+}

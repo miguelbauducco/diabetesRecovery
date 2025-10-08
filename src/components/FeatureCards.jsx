@@ -20,7 +20,7 @@ export default function FeatureCards({onClick}) {
 
             <article className="feature-card">
             <img src={asesoramiento} className="logo-card" alt="Lucas" />
-            <p className="card-title">Asesoramiento 1 a 1 Nutricionista</p>
+            <p className="card-title">Asesoramiento 1 a 1 con Nutricionista</p>
             <p className="card-text">Plan de alimentación adaptado a tus necesidades, con<span className="card-blue"> seguimiento profesional de un nutricionista </span> y ajustes estratégicos en 3 etapas clave del programa.
             </p>
             </article>
@@ -40,7 +40,7 @@ export default function FeatureCards({onClick}) {
             <img src={educacion} className="logo-card" alt="Lucas" />
             <p className="card-title">Educación, Conciencia y Estrategia</p>
             <p className="card-text">
-                Material guiado <span className="card-blue">con acceso a herramientas imprescindibles, información de calidad y acompañamiento </span>para tomar el control de tu diabetes.
+                Material guiado <span className="card-blue">con acceso a herramientas imprescindibles, información de calidad y acompañamiento </span>para tomar el control de tu Diabetes.
             </p>
             </article>
 
@@ -58,7 +58,7 @@ export default function FeatureCards({onClick}) {
           onClick?.();
           document.getElementById("calendly")?.scrollIntoView({ behavior: "smooth" });
         }}
-        className="cta-button">Quiero controlar mi diabetes</button>
+        className="cta-button">Quiero controlar mi Diabetes</button>
     <div className="ellipse"></div>
     <h5 id='faq'>Preguntas Frecuentes (FAQ)</h5>
 </section>

@@ -90,7 +90,7 @@ export const FaqCarrousel = () => {
       <swiper-slide>
         <div className="slide-text-container">
           <p className="slide-text1">¿Puedo acceder desde cualquier lugar del mundo?</p><br />
-          <p className="slide-text2">Sí, el programa es posible realizarlo completamente online. Todo lo que necesitás es una conexión a internet y las ganas de controlar tu diabetes.</p>
+          <p className="slide-text2">Sí, el programa es posible realizarlo completamente online. Todo lo que necesitás es una conexión a internet y las ganas de controlar tu Diabetes.</p>
         </div>
       </swiper-slide>
 
@@ -111,7 +111,7 @@ export const FaqCarrousel = () => {
       <swiper-slide>
         <div className="slide-text-container">
           <p className="slide-text1">¿Qué pasa si me cuesta sostener los cambios?</p><br />
-          <p className="slide-text2">No estás sola. Por eso trabajamos no solo la alimentación y el ejercicio como pilares fundamentales, sino también la mentalidad, la calidad de sueño y la gestión del estrés, para que los cambios sean sostenibles.</p>
+          <p className="slide-text2">No estás solo. Por eso trabajamos no solo la alimentación y el ejercicio como pilares fundamentales, sino también la mentalidad, la calidad de sueño y la gestión del estrés, para que los cambios sean sostenibles.</p>
         </div>
       </swiper-slide>
 

@@ -1,23 +1,19 @@
 import logofooter from '../Assets/img/logofooter.png'
+import { Link } from "react-router-dom";
+
 
 export default function Footer() {
   return (
     <footer className="footer-section">
-      <div className="footer-container">  
-        <img src={logofooter} className="logo-footer" alt="logo" />
-          
-         <div className="footer-row">
-          <p id="footer-text-1" className="footer-text">
-            X 256<br />
-            Buenos Aires<br />
-            Argentina
-          </p>
+      <div className="footer-container">
+        <div className="footer-row">
+          <img src={logofooter} className="logo-footer" alt="logo" />
         
 
-        
           <p id="footer-text-2" className="footer-text" >
-            +54 9 343 405-2762<br />
-            contacto@diabetesrecovery.com
+          Copyright © 2025 Diabetes Recovery. Todos los derechos reservados.<br></br>
+          <Link className='footer-links' to="/privacidad">[Política de Privacidad]</Link> • <Link to="/terminos" className='footer-links'>[Términos y Condiciones]</Link> • <Link className='footer-links' to="/proteccion">[Protección de Datos]</Link><br></br>
+          Contacto: info@diabetes-recovery.com – Dirección legal: Buenos Aires, Argentina.<br></br>
           </p>
         
 

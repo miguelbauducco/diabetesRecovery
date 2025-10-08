@@ -16,7 +16,7 @@ export default function AboutLucasSection() {
 
           Este resultado no es casualidad. Es el fruto de un método propio, basado en su experiencia, avalado por evidencia científica y acompañado por un equipo profesional especializado en Nutrición, Ejercicio Físico y Salud. <br /><br />
 
-          “Creé este espacio porque sé lo que es vivir con diabetes sin una guía clara.
+          “Creé este espacio porque sé lo que es vivir con Diabetes sin una guía clara.
           Y también sé lo que se siente cuando finalmente tomás el control”.
         </p>
         </div>
