@@ -1477,9 +1477,6 @@ swiper-slide.swiper-slide-active {
     box-sizing: border-box;
   }
 
-  .video-container{
-    margin-top: -15px;
-  }
 }
 
 /* Laptops medianas (hasta 1440px) */
@@ -1493,11 +1490,6 @@ swiper-slide.swiper-slide-active {
   .btn-ayuda {
     padding: 16px ;
     font-size: 18px;
-  }
-
-  
-  .video-container{
-    margin-top: -25px;
   }
 
 }
@@ -1519,7 +1511,5 @@ swiper-slide.swiper-slide-active {
     margin-top: 75px;
   }
   
-  .video-container{
-    margin-top: -15px;
-  }
+
 }
