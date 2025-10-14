@@ -1491,6 +1491,10 @@ swiper-slide.swiper-slide-active {
     font-size: 18px;
   }
 
+  .videoDesktop{
+    margin-top: 20px;
+  }
+
 }
 
 /* Laptops más chicas / MacBook 13" */
