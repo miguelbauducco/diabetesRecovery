@@ -161,7 +161,7 @@ a:hover {
     display: block;
     position: relative;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1280px;
     height: 100%;
     aspect-ratio: 16 / 9 !important;
     margin: 40px;
@@ -1476,10 +1476,6 @@ swiper-slide.swiper-slide-active {
   .main-container, .background {
     margin: 0 ;
     box-sizing: border-box;
-  }
-
-  .videoDesktop{
-    margin-top: 6px;
   }
 
 
