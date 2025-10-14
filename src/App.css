@@ -1477,6 +1477,10 @@ swiper-slide.swiper-slide-active {
     box-sizing: border-box;
   }
 
+  .videoDesktop{
+    margin-top: 7px;
+  }
+
 }
 
 /* Laptops medianas (hasta 1440px) */
