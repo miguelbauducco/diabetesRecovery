@@ -725,6 +725,9 @@ swiper-slide.swiper-slide-active {
 
 @media screen and (max-width: 768px) {
 
+  .ellipse{
+      margin-top: -95px;
+  }
   
   #footer-text-2{
     margin-right: 104px;
@@ -765,17 +768,19 @@ swiper-slide.swiper-slide-active {
   flex-direction: column;
   border: 1px solid rgba(162, 211, 235, 1);
   gap:20px;
-  width: 120px;
-  height: 350px;
-  border-radius: 30px;
+  width: 142px;
+  height: 202px;
   justify-content: center;
   align-content: center;
   text-align: start;
   padding-inline:30px;
   transform: translateX(0);
-  margin-top: 295px;
+  margin-top: 160px;
   position: absolute;
-  left: -13px;
+  left: -18px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 .close-btn {
@@ -1100,7 +1105,7 @@ swiper-slide.swiper-slide-active {
   }
 
   .cta-button {
-    display: none;
+    margin-top: 0px;
   }
 
   swiper-container {

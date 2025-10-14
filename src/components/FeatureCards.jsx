@@ -53,6 +53,7 @@ export default function FeatureCards({onClick}) {
             </article>               
         </div>
     <button
+
         onClick={(e) => {
           e.preventDefault();
           onClick?.();
@@ -60,7 +61,7 @@ export default function FeatureCards({onClick}) {
         }}
         className="cta-button">Quiero controlar mi Diabetes</button>
     <div className="ellipse"></div>
-    <h5 id='faq'>Preguntas Frecuentes (FAQ)</h5>
+    <h5 id='faq'>Preguntas frecuentes (FAQ)</h5>
 </section>
    
   );
