@@ -1476,6 +1476,10 @@ swiper-slide.swiper-slide-active {
     margin: 0 ;
     box-sizing: border-box;
   }
+
+  .video-container{
+    margin-top: -15px;
+  }
 }
 
 /* Laptops medianas (hasta 1440px) */
@@ -1491,8 +1495,9 @@ swiper-slide.swiper-slide-active {
     font-size: 18px;
   }
 
-  .videoDesktop{
-    margin-top: 20px;
+  
+  .video-container{
+    margin-top: -20px;
   }
 
 }
@@ -1512,5 +1517,9 @@ swiper-slide.swiper-slide-active {
   .calendario-section {
     margin: 0 ;
     margin-top: 75px;
+  }
+  
+  .video-container{
+    margin-top: -15px;
   }
 }
