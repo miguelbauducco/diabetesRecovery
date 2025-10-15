@@ -186,7 +186,7 @@ a:hover {
   .hero-section{
     margin:0 0 0 0;
     padding: 0 0 0 0;
-    margin-top: -50px;
+    margin-top: -140px;
   }
 
   .hero-message{
@@ -1295,11 +1295,11 @@ swiper-slide.swiper-slide-active {
     width: 100vw;
     margin: 0;
     padding: 0;
-    margin-top: 50px;
+    margin-top: -65px;
   }
 
   .videoMobile {
-   display: block;
+    display: block;
     position: relative;
     width: 100%;
     aspect-ratio: 9 / 16 !important; 
