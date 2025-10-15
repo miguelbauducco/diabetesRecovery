@@ -17,11 +17,10 @@ function Video() {
   }, []);
 
   return (
-    <div className="video-container" style={{ width: "100%", height:"auto"}}>
+    <div className="video-container">
       <iframe
         ref={desktopRef}
         className="videoDesktop"
-        style={{ width: "90%", height: "auto" }}
         src="https://www.youtube.com/embed/uWKVsJHz5QE?modestbranding=1&rel=0&showinfo=0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
