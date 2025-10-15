@@ -1359,11 +1359,25 @@ swiper-slide.swiper-slide-active {
 
 }
 
-@media screen and (max-width: 430px) and (min-height: 850px) {
+@media screen and (max-width: 430px) and (min-height: 932px) {
 
     .video-container {
       margin-top: 0px;
-      width: 90vw;
+      width: 100%;
+      text-align: center;
+  }
+
+  .videoMobile{
+  width: 80vw;
+  max-width: 320px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  border-radius: 30px;
+  overflow: hidden;
+  border: none;
+  background: #000;
+  transform: translateZ(0);
+
   }
 
  
