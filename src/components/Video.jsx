@@ -17,7 +17,7 @@ function Video() {
   }, []);
 
   return (
-    <div className="video-container" style={{ width: "100%"}}>
+    <div className="video-container" style={{ width: "100%", height:"auto"}}>
       <iframe
         ref={desktopRef}
         className="videoDesktop"
