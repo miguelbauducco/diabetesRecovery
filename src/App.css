@@ -1295,12 +1295,10 @@ swiper-slide.swiper-slide-active {
     display: block;
     position: relative;
     width: 95%;
-    aspect-ratio: 9 / 16 !important; 
     border-radius: 30px; 
     overflow: hidden;
     margin: 0;
-    padding: 0 15px;
-    margin-top: 24px;
+    margin-top: 2px;
   }
 
 .videoMobile iframe {
@@ -1364,11 +1362,13 @@ swiper-slide.swiper-slide-active {
 @media screen and (max-width: 430px) and (min-height: 850px) {
 
     .video-container {
-      margin-top: -40px;
+      margin-top: 0px;
+      width: 90vw;
   }
 
+ 
   .nav-right{
-    margin-top: 60px;
+    margin-top: 80px;
   }
 
   .btn-ayuda{
