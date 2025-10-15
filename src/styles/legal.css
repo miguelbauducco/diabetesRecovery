@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: flex-start; /* o center si querés centrar verticalmente */
   min-height: 100vh;
+  margin-top: 100px;
 }
 
 .oculto {
@@ -19,6 +20,11 @@
   color: #333;
   margin-top: 29px;
 }
+
+.nav-center-legal {
+  margin-top: 300px; 
+}
+
 
 ul {
   display: flex;

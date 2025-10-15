@@ -18,18 +18,31 @@ function Video() {
 
   return (
     <div className="video-container">
-      <iframe
-        ref={desktopRef}
-        className="videoDesktop"
-        src="https://www.youtube.com/embed/uWKVsJHz5QE?modestbranding=1&rel=0&showinfo=0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        tabIndex={-1} 
-      ></iframe>
+      <div 
+      className='div-desk'
+      style=
+      {{
+        position: 'relative',
+        width: '100%',
+        paddingBottom: '56.25%'
+      }}>
+    <iframe
+      src="https://streamable.com/e/cbvxmn?autoplay=1&loop=0"
+      allow="fullscreen; autoplay"
+      className='videoDesktop'
+      allowFullScreen
+      style={{
+      border: 'none',
+      width: '100%',
+      height: '100%',
+      position: 'absolute',
+      overflow: 'hidden'
+    }}
+  />
+</div>
 
       <iframe
         className="videoMobile"
-        style={{ width: "92%", height: "auto", border: "none", margin: "16px" }}
         src="https://www.youtube.com/embed/A734EbzBPlc"
         title="23 años viviendo con Diabetes:"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -44,11 +44,9 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  top: 8px; 
   justify-content: space-around;
-  width: 95%;
+  width: 100%;
   align-content: center;
-  height: 40px;
   background: none;
   }
 
@@ -67,10 +65,10 @@ a:hover {
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin-left: -65px;
   margin-top: 20px;
-  gap:90px;
-  justify-content: space-between;
+  gap:65px;
+  justify-content: space-around;
+  margin-left: 70px;
   }
 
   .navtext{
@@ -94,7 +92,7 @@ a:hover {
   background-color: rgba(255, 255, 255, 1);
   border-radius:50%;
   z-index: 10;
-  margin-top: 10px;
+  margin-top: 15px;
   }
 
 
@@ -123,7 +121,7 @@ a:hover {
     text-align: center;
     width: 100%;
     height: 40px;
-    margin-left: 68px;
+    margin-left: -70px;
     border-radius: 100px;
     background: none;
     border: none;
@@ -140,42 +138,24 @@ a:hover {
     text-align: center;
     font-weight: 500;
     margin: auto;
-    }
-
-
-  .video-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 1;
-    width: 100%;
-    height: 100vh;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    overflow: hidden !important;
-    transition: all 0.3s ease-in-out;
   }
 
 
-  .videoDesktop {
-    display: block;
-    position: relative;
-    width: 100%;
-    max-width: 1400px;
-    height: 100%;
-    aspect-ratio: 16 / 9 !important;
-    margin: 40px auto;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    margin-top: 11px;  
-  }
-
-
-  .videoDesktop iframe {
-    object-fit: cover;
-    border: none;
-  }
+.video-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #000;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  max-height: 87vh; 
+  margin-top: 20px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
 
 
   .videoMobile{
@@ -185,7 +165,7 @@ a:hover {
   .hero-section{
     margin:0 0 0 0;
     padding: 0 0 0 0;
-    margin-top: -25px;
+    margin-top: -40px;
   }
 
   .hero-message{
@@ -722,6 +702,16 @@ swiper-slide.swiper-slide-active {
   display: none;
 }
 
+.videoMobile {
+  aspect-ratio: 16 / 9;
+  width: 92%;
+  max-width: 400px;
+  margin: 16px auto;
+  display: none;
+  border: none;
+}
+
+
 /*MOBILE*/
 
 @media screen and (max-width: 768px) {
@@ -743,8 +733,8 @@ swiper-slide.swiper-slide-active {
   width: 26px;
   font-size: 23px;
   border-width: 2px;
-  top: 20px;
-  left: -20px;
+  top: 50px;
+  left: -12px;
   color:rgba(36, 81, 122, 1);
   transform: translateY(-50%);
   max-width: 300px;
@@ -775,9 +765,9 @@ swiper-slide.swiper-slide-active {
   text-align: start;
   padding-inline:30px;
   transform: translateX(0);
-  margin-top: 160px;
+  margin-top: 90px;
   position: absolute;
-  left: -18px;
+  left: -10px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -832,7 +822,6 @@ swiper-slide.swiper-slide-active {
     align-items: center;
     align-content: center;
     background: none;
-    margin-top: 10px;
   }
 
   .nav-left {
@@ -841,7 +830,7 @@ swiper-slide.swiper-slide-active {
 
   .nav-right {
     display: flex;
-    margin-right: 143px;
+    margin-right: -140px;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -857,7 +846,6 @@ swiper-slide.swiper-slide-active {
   }
 
   .imglogo {
-    margin-left: 18px;
     width: 173px;
     height: 214px;
   }
@@ -866,9 +854,18 @@ swiper-slide.swiper-slide-active {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    display: block;
+    height: auto;
+    background: none;
+    padding: 0 16px;
+
   }
 
-  .videoDesktop {
+  .div-desk{
+    display: none;
+  }
+
+    .videoDesktop {
     display: none;
   }
 
@@ -876,9 +873,11 @@ swiper-slide.swiper-slide-active {
   .videoMobile {
     display: block;
     position: relative;
-    width: 100%;
-    aspect-ratio: 9 / 16 !important;
     overflow: hidden;
+    background: none;
+    width: 90%;
+    max-width: 400px;
+    margin: 12px auto;
   }
 
   .hero-message{
@@ -996,6 +995,7 @@ swiper-slide.swiper-slide-active {
     text-align: center;
     align-content: center;
     border-radius: 30px;
+    margin-top:-50px;
     box-sizing: border-box;
     box-shadow: 0px 0px 4px 0px rgba(36, 81, 122, 0.15);
     background: linear-gradient(90deg, #24517A 0%, #4295E0 100%);
@@ -1268,12 +1268,11 @@ swiper-slide.swiper-slide-active {
   }
 
   .nav-center{
-    margin-top: 225px;
+    margin-top: 135px;
   }
 
   .nav-right{
-    margin-top: 115px;
-    padding-left: 10px;
+    margin-top: 95px;
   }
   
   .main-container{
@@ -1294,17 +1293,20 @@ swiper-slide.swiper-slide-active {
     width: 100vw;
     margin: 0;
     padding: 0;
-    margin-top: 45px;
+    margin-top: -32px;
+    border-radius: 30px; 
   }
 
   .videoMobile {
     display: block;
     position: relative;
-    width: 100%;
+    width: 95%;
     aspect-ratio: 9 / 16 !important; 
     border-radius: 30px; 
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0 10px;
+    margin-top: 22px;
   }
 
 .videoMobile iframe {
@@ -1367,15 +1369,23 @@ swiper-slide.swiper-slide-active {
 
 @media screen and (max-width: 430px) and (min-height: 850px) {
 
+    .video-container {
+      margin-top: -40px;
+  }
+
+
 
   .nav-right{
-    margin-top: 115px;
-    padding-right: 1px;
+    margin-top: 60px;
+  }
+
+  .btn-ayuda{
+    margin-top: -8px;
   }
 
   .nav-center{
-    margin-top: 225px;
-    padding-right: 8px;
+    margin-top: 170px;
+    padding-right:12px;
   }
 
   .about-img {
@@ -1478,15 +1488,15 @@ swiper-slide.swiper-slide-active {
     box-sizing: border-box;
   }
 
-  .videoDesktop{
-  width: 90%;
-  display: block;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  height: 43.5vw;
-  overflow: hidden;
+
+  .navtext{
+    font-size: 12.5px;
   }
+
+  .nav-center{
+    margin-left: 10px;
+  }
+
 
 
 }

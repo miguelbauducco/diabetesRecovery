@@ -25,9 +25,10 @@ function Navbar({ onClick }) {
         <a href="#faq" className="navtext">PREGUNTAS FRECUENTES</a>
       </div>
       
-      <div className="nav-center">
+      <div className={`nav-center ${esLegal ? "nav-center-legal" : ""}`}>
         <img src={logo} className="imglogo" alt="logo" />
       </div>
+
       
       <div className={`nav-right ${esLegal ? "oculto" : ""}`}>
         <button
