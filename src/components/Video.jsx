@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 
 function Video() {
+
   const desktopRef = useRef(null);
 
   useEffect(() => {
@@ -20,19 +21,18 @@ function Video() {
     <div className="video-container">
       <div 
       className='div-desk'
-      style=
-      {{
+      style={{
         position: 'relative',
         width: '100%',
-        paddingBottom: '56.25%'
+        paddingBottom: '56.25%',
       }}>
+
     <iframe
-      src="https://streamable.com/e/cbvxmn?autoplay=1&loop=0"
+      src="https://streamable.com/e/cbvxmn"
       allow="fullscreen; autoplay"
       className='videoDesktop'
       allowFullScreen
       style={{
-      border: 'none',
       width: '100%',
       height: '100%',
       position: 'absolute',
