@@ -5,6 +5,11 @@
   font-style: normal;
   }
 
+  .header {
+  padding-top: env(safe-area-inset-top);
+  }
+
+
   html,body{
     width: 100%;
     height: 100%;
