@@ -1197,6 +1197,19 @@ swiper-slide.swiper-slide-active {
     height: 4px;
   }
 
+  .videoWrapper {
+  width: 100%;
+  max-width: 430px;
+  aspect-ratio: 9/16;
+  margin-inline: auto;
+  border-radius: 30px;
+  overflow: hidden;
+  background: transparent ;
+  transform: translateZ(0);
+}
+
+
+
 
 }
 

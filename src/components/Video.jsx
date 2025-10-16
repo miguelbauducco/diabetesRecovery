@@ -41,6 +41,7 @@ function Video() {
   />
 </div>
 
+      <div class="videoWrapper">
       <iframe
         className="videoMobile"
         src="https://www.youtube.com/embed/A734EbzBPlc"
@@ -48,6 +49,7 @@ function Video() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
       ></iframe>
+    </div>
     </div>
   );
 }
