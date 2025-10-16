@@ -24,6 +24,7 @@ function Video() {
       style={{
         position: 'relative',
         width: '100%',
+        border:'none',
         paddingBottom: '56.25%',
       }}>
 
