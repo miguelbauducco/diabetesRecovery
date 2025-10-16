@@ -868,7 +868,7 @@ swiper-slide.swiper-slide-active {
     width: 100%;
     max-width: 380px;
     margin: 0 auto;
-    margin-top: 10px;
+
     border-radius: 20px;
     overflow: hidden;
     aspect-ratio: 9 / 16 !important;
