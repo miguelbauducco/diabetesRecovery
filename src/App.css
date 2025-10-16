@@ -1362,27 +1362,6 @@ swiper-slide.swiper-slide-active {
 
 @media screen and (max-width: 430px) and (min-height: 932px) {
 
-  .video-container {
-    margin: 0 auto;
-  }
-
-  .videoMobile{
-  width: 80vw;
-  aspect-ratio: 9 / 16 !important; 
-  margin: 0 auto;
-  border-radius: 30px;
-  overflow: hidden;
-  border: none;
-  background: transparent;
-  transform: translateZ(0);
-  }
-
-  @supports (-webkit-touch-callout: none) {
-  .video-container {
-    height: auto;
-    aspect-ratio: 16 / 9;
-  }
-}
 
  
   .nav-right{
