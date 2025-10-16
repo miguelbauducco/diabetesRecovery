@@ -1362,7 +1362,7 @@ swiper-slide.swiper-slide-active {
 
 @media screen and (max-width: 430px) and (min-height: 932px) {
 
-    @media screen and (max-width: 430px) and (min-height: 932px) {
+
   .video-container {
     width: 100%;
     max-width: 430px;
@@ -1384,7 +1384,7 @@ swiper-slide.swiper-slide-active {
     transform: translateZ(0);
     -webkit-mask-image: -webkit-radial-gradient(white, black);
   }
-}
+
 
 
   .nav-right{
