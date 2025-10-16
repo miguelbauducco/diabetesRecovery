@@ -1364,20 +1364,13 @@ swiper-slide.swiper-slide-active {
 
   
     .videoMobile {
-    margin-top: 0;
-    width: 100vw;
-    max-width: none;
-    height: 100dvh;
+
+
     aspect-ratio: 9 / 16 !important;
-    border-radius: 0;
-    overflow: hidden;
+
   }
 
-  .videoMobile iframe {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+
 
 
 
