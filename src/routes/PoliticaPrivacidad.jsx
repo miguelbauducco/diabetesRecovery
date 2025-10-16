@@ -5,6 +5,7 @@ import '../styles/legal.css'
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import logo from '../Assets/img/logo.png';
 
 
 
@@ -19,7 +20,7 @@ export default function PoliticaPrivacidad() {
   return (
     <div className="main-container">
       <div className="background">
-        <Link to="/"><Navbar /></Link>
+        <Link to="/"><img src={logo} className="logo-legal" style={{height:"170px", width:"170px"}} alt="logo" /></Link>
 
         <section className="legal-section">
           <h1 className="titles">Política de Privacidad<br />Diabetes Recovery</h1>

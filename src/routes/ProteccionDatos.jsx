@@ -1,10 +1,10 @@
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ScrollBtn from "../components/ScrollBtn";
 import '../styles/legal.css'
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import logo from '../Assets/img/logo.png';
 
 export default function ProteccionDatos() {
   const location = useLocation();
@@ -17,7 +17,7 @@ export default function ProteccionDatos() {
   return (
     <div className="main-container">
       <div className="background">
-        <Link to="/"><Navbar /></Link>
+        <Link to="/"><img src={logo} className="logo-legal" style={{height:"170px", width:"170px"}} alt="logo" /></Link>
 
         <section className="legal-section">
 

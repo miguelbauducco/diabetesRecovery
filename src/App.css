@@ -68,7 +68,7 @@ a:hover {
   margin-top: 20px;
   gap:65px;
   justify-content: space-around;
-  margin-left: 70px;
+  margin-left: 75px;
   }
 
   .navtext{
@@ -1475,7 +1475,7 @@ swiper-slide.swiper-slide-active {
   }
 
   .nav-left{
-    margin-right: 290px;
+    padding-right: 190px;
   }
 
   .main-container, .background {
@@ -1493,6 +1493,15 @@ swiper-slide.swiper-slide-active {
   }
 
 
+
+}
+
+
+@media screen and (max-width: 1680px){
+
+  .nav-left{
+    margin-right: 200px;
+  }
 
 }
 
