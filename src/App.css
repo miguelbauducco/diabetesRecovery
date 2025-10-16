@@ -832,6 +832,7 @@ swiper-slide.swiper-slide-active {
   .nav-right {
     display: flex;
     margin-right: -140px;
+    margin-top: 100px;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -844,6 +845,7 @@ swiper-slide.swiper-slide-active {
     align-items: center;
     background: none;
     border-radius: 0;
+    margin-top: 150px;
   }
 
   .imglogo {
@@ -1365,18 +1367,11 @@ swiper-slide.swiper-slide-active {
 }
 
 
-@media screen and (max-width: 430px) and (min-height: 932px) {
+@media screen and (max-width: 460px) and (min-height: 920px) {
+
 
   .video-container{
-    margin-top: 0px;
-  }
-
-  .videoMobile {
-    aspect-ratio: 9 / 16 !important;
-  }
-
-  .nav-right{
-    margin-top: 80px;
+    margin-top: 10px;
   }
 
   .btn-ayuda{
