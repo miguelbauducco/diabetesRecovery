@@ -1293,7 +1293,7 @@ swiper-slide.swiper-slide-active {
   .videoMobile {
     display: block;
     position: relative;
-    width: 95%;
+    width: 100%;
     border-radius: 30px; 
     overflow: hidden;
     margin: 0;
@@ -1328,7 +1328,7 @@ swiper-slide.swiper-slide-active {
 
   .about-img {
     border-radius: 16px;
-    margin-top: 410px;
+    margin-top: 350px;
   }
 
 
@@ -1362,7 +1362,10 @@ swiper-slide.swiper-slide-active {
 
 @media screen and (max-width: 430px) and (min-height: 932px) {
 
-  
+  .video-container{
+    margin-top: 0px;
+  }
+
   .videoMobile {
     aspect-ratio: 9 / 16 !important;
   }
@@ -1382,7 +1385,7 @@ swiper-slide.swiper-slide-active {
   }
 
   .about-img {
-    margin-top: 200px;
+    margin-top: 180px;
   }
 
    .footer-section {
