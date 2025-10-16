@@ -1362,6 +1362,29 @@ swiper-slide.swiper-slide-active {
 
 @media screen and (max-width: 430px) and (min-height: 932px) {
 
+  .video-container {
+  width: 100%;
+  margin-inline: auto;
+  padding: 0;
+  margin-top: -32px;
+  border-radius: 30px;
+}
+
+.videoMobile {
+  display: block;
+  position: relative;
+  width: 80vw;
+  max-width: 320px;
+  aspect-ratio: 16 / 9;
+  margin-inline: auto;
+  border-radius: 30px;
+  overflow: hidden;
+  background: #000;
+  transform: translateZ(0);
+  mask-image:none;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  }
+
 
  
   .nav-right{
