@@ -735,7 +735,7 @@ swiper-slide.swiper-slide-active {
   font-size: 23px;
   border-width: 2px;
   top: 50px;
-  left: -12px;
+  left: 0px;
   color:rgba(36, 81, 122, 1);
   transform: translateY(-50%);
   max-width: 300px;
@@ -868,7 +868,6 @@ swiper-slide.swiper-slide-active {
     width: 100%;
     max-width: 380px;
     margin: 0 auto;
-
     border-radius: 20px;
     overflow: hidden;
     aspect-ratio: 9 / 16 !important;
