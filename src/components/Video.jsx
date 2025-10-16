@@ -27,7 +27,7 @@ function Video() {
         paddingBottom: '56.25%',
       }}>
 
-    <iframe
+      <iframe
       src="https://streamable.com/e/cbvxmn"
       allow="fullscreen; autoplay"
       className='videoDesktop'
@@ -37,11 +37,9 @@ function Video() {
       height: '100%',
       position: 'absolute',
       overflow: 'hidden'
-    }}
+      }}
   />
-</div>
-
-      <div class="videoWrapper">
+  </div>
       <iframe
         className="videoMobile"
         src="https://www.youtube.com/embed/A734EbzBPlc"
@@ -50,7 +48,7 @@ function Video() {
         referrerPolicy="strict-origin-when-cross-origin"
       ></iframe>
     </div>
-    </div>
+
   );
 }
 
