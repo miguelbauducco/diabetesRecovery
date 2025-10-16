@@ -29,7 +29,7 @@ function Video() {
       }}>
 
       <iframe
-      src="https://streamable.com/e/cbvxmn"
+      src="https://streamable.com/e/cbvxmn?autoplay=1"
       allow="fullscreen; autoplay"
       className='videoDesktop'
       allowFullScreen
